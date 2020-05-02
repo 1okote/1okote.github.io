@@ -18,7 +18,7 @@ Depiction: https://1okote.github.io/depictions/hideyourapps
 Package: voicechangerx
 Version: 2.2
 Architecture: iphoneos-arm
-Maintainer: Kiiimo <support@kiiimo.org>
+Maintainer: 1okote
 Installed-Size: 384
 Depends: mobilesubstrate, preferenceLoader
 Size: 105056
@@ -28,8 +28,7 @@ SHA256: 3e4bb63ab90f39c864f193499718a3f3f041632fce628f3fb2e70807786e0d03
 Section: Tweaks
 Author: Elias Limneos <limneoselias@gmail.com>
 Icon: null
-Name: VoiceChangerX Cracked
-Sponsor: kiiimo.org <http://kiiimo.org>
+Name: VoiceChangerX 
 Filename: ./debs/voicechangerx.deb
 Depiction: https://1okote.github.io/depictions/voicechangerx
 
