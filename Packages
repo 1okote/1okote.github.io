@@ -3,7 +3,7 @@ Name: VoiceChangerX Cracked
 Depends: mobilesubstrate, preferenceLoader
 Version: 0.1-44k
 Architecture: iphoneos-arm
-Description: Test 4
+Description: Test 1
 Maintainer: 1okote
 Author: Elias Limneos <limneoselias@gmail.com>
 Section: Tweaks
@@ -12,4 +12,3 @@ Installed-Size: 384
 Depiction: https://1okote.github.io/depictions/voicechangerX
 size: 105
 Sponsor: 1okote
-Icon: null
