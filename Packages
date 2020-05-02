@@ -1,35 +1,40 @@
-Package: hideyourapps
-Version: 1.2.1
+Package: pulltorespring2
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: 1okote
-Installed-Size: 320
-Depends: mobilesubstrate, applist
-Filename: ./debs/hideyourapps.deb
-Size: 27728
-MD5sum: 9508fe656d509dec8839a361c9512c04
-SHA1: 93e5bec3174803ed372fc2ec2abbe3cfb3816178
-SHA256: a5d562cb23c39bad6ea242f094da02304603439b3ddc202257a7f673dfe32e70
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader
+Filename: ./debs/pulltorespring2.deb
+Size: 18644
+MD5sum: 1932b972192f4a97a1e55e96c7e97556
+SHA1: c5627b2cac244c32aab3bdbfcaf8ba5fa091a33e
+SHA256: 7167e98fac83f9934f147997e9f9377c5e33b068b7c9c11ccb66f355c0f3803a
 Section: Tweaks
-Description: A tweak to hide apps on your Springboard.
-Author: Menushka Weeratunga and Blake Boxberger
-Name: HideYourApps
-Depiction: https://1okote.github.io/depictions/hideyourapps
+Homepage: https://1okote.github.io/depictions/pulltorespring2
+Description: Pull down in Settings to respring
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Noah Saso <noahsaso@gmail.com>
+Depiction: https://1okote.github.io/depictions/pulltorespring2
+Dev: sassoty
+Icon: file:///Library/PreferenceLoader/Preferences/PullToRespring@2x.png
+Name: PullToRespring 2
 
-Package: flyjb
-Version: 0.3~alpha10
+Package: slices3
+Version: 3.0.5
 Architecture: iphoneos-arm
-Maintainer: XsF1re
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Size: 641832
-MD5sum: ecf0ad62bd3567111bac487742a565e3
-SHA1: 699a8a752a9daa3b465b2184ee7b0cb0713e6e05
-SHA256: 9587ce518e656a2f3f20a6dcced966122e6bf5fd78f7687133957932b227b737
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Name: FlyJB
-Filename: ./debs/flyjb.deb
-Depiction: https://1okote.github.io/depictions/flyjb
+Maintainer: Kiiimo <support@kiiimo.org>
+Installed-Size: 1004
+Depends: firmware (>=11), mobilesubstrate, preferenceloader, applist (>= 1.5.0), com.rpetrich.rocketbootstrap (>=1.0.7~beta3)
+Conflicts: com.expetelek.slices, com.subdiox.slices2
+Filename: ./debs/slices3.deb
+Size: 302166
+MD5sum: d0d2974e2e2367c0c6524b5805c9f093
+SHA1: 51e31f6804d9f1ecad70a0f4d3274be8af99f70c
+SHA256: 4179ecf0532f3c80576a0b274d1dcdfc94e36b7acdb786bfda716adf9a9bdea4
+Section: iOS 12
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://1okote.github.io/depictions/slices3
+Name: Slices 3
+Sponsor: kiiimo.org <http://kiiimo.org>
 
 
