@@ -1,14 +1,11 @@
 <package>
-	<id>com.supermamon.oldpackage</id>
-	<name>Old Package</name>
-	<version>1.0.0-1</version>
+	<id>voicechangerX</id>
+	<name>voicechangerX</name>
+	<version>0.1-44</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>7.0</maxiOS>
+			<maxiOS>13.4</maxiOS>
 			<otherVersions>unsupported</otherVersions>
-			<!--
-			for otherVersions, you can put either unsupported or unconfirmed
-			-->
 		</firmware>
 	</compatibility>
 	<dependencies></dependencies>
@@ -17,6 +14,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
+		<version>0.1-44</version>
 		<change>Initial release</change>
 	</changelog>
 	<links></links>
