@@ -15,23 +15,6 @@ Author: Menushka Weeratunga and Blake Boxberger
 Name: HideYourApps
 Depiction: https://1okote.github.io/depictions/hideyourapps
 
-Package: voicechangerx
-Version: 2.2
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceLoader
-Size: 105056
-MD5sum: 506ffe2c2ed38c37acd16702fead8c6d
-SHA1: f9f81a6eadbcf08ca9a2763916e19e79f76ee269
-SHA256: 3e4bb63ab90f39c864f193499718a3f3f041632fce628f3fb2e70807786e0d03
-Section: Tweaks
-Author: Elias Limneos <limneoselias@gmail.com>
-Icon: null
-Name: VoiceChangerX 
-Filename: ./debs/voicechangerx.deb
-Depiction: https://1okote.github.io/depictions/voicechangerx
-
 Package: flyjb
 Version: 0.3~alpha10
 Architecture: iphoneos-arm
