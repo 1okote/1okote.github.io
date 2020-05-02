@@ -1,15 +1,35 @@
-Package: voicechangerX
-Name: VoiceChangerX Cracked
-Depends: mobilesubstrate, preferenceLoader
-Version: 0.1-44
+Package: hideyourapps
+Version: 1.2.1
 Architecture: iphoneos-arm
-Description: Test 1
 Maintainer: 1okote
-Author: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 320
+Depends: mobilesubstrate, applist
+Filename: ./debs/hideyourapps.deb
+Size: 27728
+MD5sum: 9508fe656d509dec8839a361c9512c04
+SHA1: 93e5bec3174803ed372fc2ec2abbe3cfb3816178
+SHA256: a5d562cb23c39bad6ea242f094da02304603439b3ddc202257a7f673dfe32e70
 Section: Tweaks
-Filename: ./debs/voicechangerX.deb
-Installed-Size: 384
-Depiction: https://1okote.github.io/depictions/voicechangerX
-size: 105
-Sponsor: 1okote
-MD5sum: f9f81a6eadbcf08ca9a2763916e19e79f76ee269
+Description: A tweak to hide apps on your Springboard.
+Author: Menushka Weeratunga and Blake Boxberger
+Name: HideYourApps
+Depiction: https://1okote.github.io/depictions/hideyourapps
+
+Package: voicechangerx
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: mobilesubstrate, com.hackyouriphone.sedfix, wget
+Conflicts: com.hackyouriphone.limneosos, ru.rejail.limneosos, com.hackyouriphone.limneosos
+Filename: ./debs/voicechangerx.deb
+Size: 454186
+MD5sum: dac9dd0c4d8c3a429b8e90c1d119eebe
+SHA1: b84b63ef0bd44ddc3d15fe647df84ca43708e953
+SHA256: 80f205457c862b35e9edb92e0052af0a308d2f7a7ddb77e953e9429753244ad4
+Section: Tweaks
+Homepage: https://1okote.github.io/depictions/voicechangerx
+Description: Change your voice during a call!
+Author: Elias Limneos <repo@hackyouriphone.org>
+Depiction: https://1okote.github.io/depictions/voicechangerx
+Name: VoiceChanger XS
+
