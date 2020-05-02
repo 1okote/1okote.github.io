@@ -16,20 +16,37 @@ Name: HideYourApps
 Depiction: https://1okote.github.io/depictions/hideyourapps
 
 Package: voicechangerx
-Version: 2.2
+Version: 0.1-44k
 Architecture: iphoneos-arm
-Maintainer: 1okote
-Depends: mobilesubstrate, com.hackyouriphone.sedfix, wget
-Conflicts: com.hackyouriphone.limneosos, ru.rejail.limneosos, com.hackyouriphone.limneosos
+Maintainer: Kiiimo <support@kiiimo.org>
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceLoader
+Size: 105056
+MD5sum: 506ffe2c2ed38c37acd16702fead8c6d
+SHA1: f9f81a6eadbcf08ca9a2763916e19e79f76ee269
+SHA256: 3e4bb63ab90f39c864f193499718a3f3f041632fce628f3fb2e70807786e0d03
+Section: iOS 11.3x
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: null
+Name: VoiceChangerX Cracked
+Sponsor: kiiimo.org <http://kiiimo.org>
 Filename: ./debs/voicechangerx.deb
-Size: 454186
-MD5sum: dac9dd0c4d8c3a429b8e90c1d119eebe
-SHA1: b84b63ef0bd44ddc3d15fe647df84ca43708e953
-SHA256: 80f205457c862b35e9edb92e0052af0a308d2f7a7ddb77e953e9429753244ad4
+
+Package: flyjb
+Version: 0.3~alpha10
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Size: 641832
+MD5sum: ecf0ad62bd3567111bac487742a565e3
+SHA1: 699a8a752a9daa3b465b2184ee7b0cb0713e6e05
+SHA256: 9587ce518e656a2f3f20a6dcced966122e6bf5fd78f7687133957932b227b737
 Section: Tweaks
-Homepage: https://1okote.github.io/depictions/voicechangerx
-Description: Change your voice during a call!
-Author: Elias Limneos <repo@hackyouriphone.org>
-Depiction: https://1okote.github.io/depictions/voicechangerx
-Name: VoiceChanger XS
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+Filename: ./debs/flyjb.deb
+Depiction: https://1okote.github.io/depictions/flyjb
+
 
