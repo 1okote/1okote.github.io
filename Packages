@@ -14,7 +14,7 @@ Homepage: https://1okote.github.io/depictions/pulltorespring2
 Description: Pull down in Settings to respring
 Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
 Author: Noah Saso <noahsaso@gmail.com>
-Depiction: https://1okote.github.io/depictions/pulltorespring2
+Depiction: https://1okote.github.io/depictions/pulltorespring2/index.html
 Dev: sassoty
 Icon: file:///Library/PreferenceLoader/Preferences/PullToRespring@2x.png
 Name: PullToRespring 2
@@ -33,7 +33,7 @@ SHA1: 51e31f6804d9f1ecad70a0f4d3274be8af99f70c
 SHA256: 4179ecf0532f3c80576a0b274d1dcdfc94e36b7acdb786bfda716adf9a9bdea4
 Section: Tweaks
 Author: Baw Appie <pp121324@gmail.com>
-Depiction: https://1okote.github.io/depictions/slices3
+Depiction: https://1okote.github.io/depictions/slices3/index.html
 Name: Slices 3
 Sponsor: kiiimo.org <http://kiiimo.org>
 
