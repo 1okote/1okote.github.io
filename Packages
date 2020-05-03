@@ -14,7 +14,7 @@ Homepage: https://1okote.github.io/depictions/pulltorespring2
 Description: Pull down in Settings to respring
 Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
 Author: Noah Saso <noahsaso@gmail.com>
-Depiction: https://1okote.github.io/depictions/pulltorespring2/index.html
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Dev: sassoty
 Icon: file:///Library/PreferenceLoader/Preferences/PullToRespring@2x.png
 Name: PullToRespring 2
@@ -33,7 +33,7 @@ SHA1: 51e31f6804d9f1ecad70a0f4d3274be8af99f70c
 SHA256: 4179ecf0532f3c80576a0b274d1dcdfc94e36b7acdb786bfda716adf9a9bdea4
 Section: Tweaks
 Author: Baw Appie <pp121324@gmail.com>
-Depiction: https://1okote.github.io/depictions/slices3/index.html
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: Slices 3
 Sponsor: kiiimo.org <http://kiiimo.org>
 
@@ -52,7 +52,7 @@ Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
 Author: CokePokes
-Depiction: https://1okote.github.io/depictions/appstoreplusplus
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: AppStore++
 
 Package: easyswitcherx
@@ -69,7 +69,7 @@ Section: Tweaks
 Author: Spark
 Name: EasySwitcherX
 Sponsor: 1okote
-Depiction: https://1okote.github.io/depictions/easyswitcherx
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 Package: hideyourapps
 Version: 1.2.1
@@ -83,7 +83,7 @@ SHA1: e8698008c8a2e8d2edc8010ce7d540bbf287beb2
 SHA256: 799c55ab0ce29d77f0b2848f3a5f88422f1fa27f27c1f68f4ceb1457b7022224
 Section: Tweaks
 Author: Menushka Weeratunga and Blake Boxberger
-Depiction: https://1okote.github.io/depictions/hideyourapps
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: HideYourApps
 
 Package: flyjb
@@ -97,7 +97,7 @@ SHA1: 31c8083eb2f26625de1d437890a36b6001566c0f
 SHA256: c481a31b9c45bf3e886da5cd4ad036a25b7a887e6cd6a6fe4c712f5eeecdeee2
 Section: Tweaks
 Author: XsF1re
-Depiction: https://1okote.github.io/depictions/flyjb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
 
@@ -117,7 +117,7 @@ Section: Tweaks
 Description: Change your voice during a call!
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: https://1okote.github.io/depictions/voicechangerx
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 Dev: limneos
 Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
 Name: VoiceChanger XS (iOS 11/12/13)
