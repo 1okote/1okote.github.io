@@ -37,4 +37,51 @@ Depiction: https://1okote.github.io/depictions/slices3
 Name: Slices 3
 Sponsor: kiiimo.org <http://kiiimo.org>
 
+Package: appstoreplusplus
+Version: 0.9.10
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstoreplusplus.deb
+Size: 606018
+MD5sum: 0a20185bce23a171db0eda630b67038c
+SHA1: 6cce7f004a990f89bd754e37298958484a2f46d8
+SHA256: 0b40b946393adcd694b1356eb3f689b85af514e02957ed3a428c6cca221c710c
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://1okote.github.io/depictions/appstoreplusplus
+Name: AppStore++
 
+Package: easyswitcherx
+Version: 0.0.4-5
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/easyswitcherx.deb
+Size: 64300
+MD5sum: c03fe24073996763daf89b582333748c
+SHA1: d0f67bab49cee6706995f5c6d8a343d6e6a51140
+SHA256: d2a9ccf67d3690e872dedad75452fe545c35b91d363cec57fecdc1cb489a4e43
+Section: Tweaks
+Author: Spark
+Name: EasySwitcherX
+Sponsor: 1okote
+Depiction: https://1okote.github.io/depictions/easyswitcherx
+
+Package: hideyourapps
+Version: 1.2.1
+Architecture: iphoneos-arm
+Installed-Size: 320
+Depends: mobilesubstrate, applist
+Filename: ./debs/hideyourapps.deb
+Size: 33622
+MD5sum: 06c55b8bb4242479886453d7dcaa5b8f
+SHA1: e8698008c8a2e8d2edc8010ce7d540bbf287beb2
+SHA256: 799c55ab0ce29d77f0b2848f3a5f88422f1fa27f27c1f68f4ceb1457b7022224
+Section: Tweaks
+Author: Menushka Weeratunga and Blake Boxberger
+Depiction: https://1okote.github.io/depictions/hideyourapps
+Name: HideYourApps
