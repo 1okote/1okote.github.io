@@ -31,7 +31,7 @@ Size: 302166
 MD5sum: d0d2974e2e2367c0c6524b5805c9f093
 SHA1: 51e31f6804d9f1ecad70a0f4d3274be8af99f70c
 SHA256: 4179ecf0532f3c80576a0b274d1dcdfc94e36b7acdb786bfda716adf9a9bdea4
-Section: iOS 12
+Section: Tweaks
 Author: Baw Appie <pp121324@gmail.com>
 Depiction: https://1okote.github.io/depictions/slices3
 Name: Slices 3
@@ -85,3 +85,63 @@ Section: Tweaks
 Author: Menushka Weeratunga and Blake Boxberger
 Depiction: https://1okote.github.io/depictions/hideyourapps
 Name: HideYourApps
+
+Package: flyjb
+Version: 0.3~alpha10
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/flyjb.deb
+Size: 641814
+MD5sum: c589286e3bb41d4742b2fd090741a57a
+SHA1: 31c8083eb2f26625de1d437890a36b6001566c0f
+SHA256: c481a31b9c45bf3e886da5cd4ad036a25b7a887e6cd6a6fe4c712f5eeecdeee2
+Section: Tweaks
+Author: XsF1re
+Depiction: https://1okote.github.io/depictions/flyjb
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+
+Package: voicechangerx
+Version: 2.2-51
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1421
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/voicechangerx.deb
+Size: 456390
+MD5sum: 619f91c75a2e34e440376bc264c123db
+SHA1: 2b3dfc41e449c3c8a128f3b6ba2eefa34cf3f55c
+SHA256: 2dd08a2e7b6aa2cb48f66c48fdae841396bc4445cdc94f4fdd297d51a31ae6ff
+Section: Tweaks
+Description: Change your voice during a call!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://1okote.github.io/depictions/voicechangerx
+Dev: limneos
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Name: VoiceChanger XS (iOS 11/12/13)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
