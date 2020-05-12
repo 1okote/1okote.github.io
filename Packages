@@ -148,14 +148,13 @@ Architecture: iphoneos-arm
 Maintainer: 1okote
 Installed-Size: 1600
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Depends: libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/shuffle.deb
-Size: 343812
-MD5sum: a8bf0cf9554701c118adae0e351c4e55
-SHA1: ea8e10b26689018fb2884f182b19be459a511dbe
-SHA256: 07cb6b2359009a437621aee0016f7e7c614de85a45d5a5c3285456151ce44aa7
+Size: 343802
+MD5sum: 9f607120444ec24e31b2b3384e41db28
+SHA1: 84ed1d4e7235115b351c4a773085a6f8c3d2ec74
+SHA256: b7e17ee6526135e7f17382849a2b32d10632c15d8b9f6d4dfd051a370b67341d
 Section: Tweaks
 Homepage: https://1okote.github.io/depictions/shuffle
 Description: Mix up your preferences
@@ -164,6 +163,9 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: shuffle
+
+
+
 
 
 
