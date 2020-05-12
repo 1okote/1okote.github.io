@@ -142,27 +142,28 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: libCSPreferences
 
-Package: shuffle
+Package: com.1okote.shuffle
 Version: 1.1.4
 Architecture: iphoneos-arm
 Maintainer: 1okote
 Installed-Size: 1600
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/shuffle.deb
-Size: 343802
-MD5sum: 9f607120444ec24e31b2b3384e41db28
-SHA1: 84ed1d4e7235115b351c4a773085a6f8c3d2ec74
-SHA256: b7e17ee6526135e7f17382849a2b32d10632c15d8b9f6d4dfd051a370b67341d
+Size: 343824
+MD5sum: 3044c371ff776fcf759ebf837ef8ea43
+SHA1: 6319904e79b4c64b80872a04f0598dbfbbac76cf
+SHA256: 9d0d2d119bef75af571ba28e5c9c872c14e50a6851d4476d3ab6caff3018787d
 Section: Tweaks
-Homepage: https://1okote.github.io/depictions/shuffle
+Homepage: https://creaturecoding.com/
 Description: Mix up your preferences
 Tag: purpose::extension, compatible_min::iosiOS10
 Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: shuffle
-
 
 
 
