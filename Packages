@@ -104,7 +104,7 @@ Name: FlyJB
 Package: voicechangerx
 Version: 2.2-51
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: 1okote
 Installed-Size: 1421
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
@@ -123,8 +123,47 @@ Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
 Name: VoiceChanger XS (iOS 11/12/13)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: libcspreferences
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 4952
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/libcspreferences.deb
+Size: 1410032
+MD5sum: d2dba8a9a2c14d983f1bc3b0122c85f5
+SHA1: ce557f38827b764185016fd0da767a7ff7dd4f28
+SHA256: 138bf5600fa2bbca8020c5f25770293942038a7f2aa5f64febf98faa9518d2e7
+Section: System
+Homepage: https://1okote.github.io/depictions/libcspreferences
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: libCSPreferences
 
-
+Package: shuffle
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1600
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/shuffle.deb
+Size: 343812
+MD5sum: a8bf0cf9554701c118adae0e351c4e55
+SHA1: ea8e10b26689018fb2884f182b19be459a511dbe
+SHA256: 07cb6b2359009a437621aee0016f7e7c614de85a45d5a5c3285456151ce44aa7
+Section: Tweaks
+Homepage: https://1okote.github.io/depictions/shuffle
+Description: Mix up your preferences
+Tag: purpose::extension, compatible_min::iosiOS10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: shuffle
 
 
 
