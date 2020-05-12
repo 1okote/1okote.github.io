@@ -170,16 +170,16 @@ Version: 1.0-b2
 Architecture: iphoneos-arm
 Maintainer: 1okote
 Depends: firmware (>= 11.2), perl, git, ws.hbang.newterm2
-Filename: ./debs/beta.deb
 Size: 211048
-MD5sum: 2c4dcff7b0607ec766c26c0cda2493fd
-SHA1: 8a64ea6025bb49282f80a02692b8cb4fe356f67b
-SHA256: af948ae2a1df817a799a4b8808711f79c18dea1de8cd231c2ac73664d185e9e1
+MD5sum: bb1525c01d7415fceaf949f6f5ad2df8
+SHA1: 2ebb14798b243f46aa38b2212386c9cc3a073df4
+SHA256: 58a6d1a32ea0f0bdc3fff1d0e7bcd7d67e74ab3d476b8e6b80d226c3fbad7078
 Section: System
 Description: All Packages for create Cydia Repo
-Depiction: https://1okote.github.io/depictions/1okote/index.html
 Author: SharkLatan
 Name: Test Repo
+Filename: ./debs/beta.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
