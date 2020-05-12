@@ -147,7 +147,6 @@ Version: 1.1.4
 Architecture: iphoneos-arm
 Maintainer: 1okote
 Installed-Size: 1600
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debs/shuffle.deb
