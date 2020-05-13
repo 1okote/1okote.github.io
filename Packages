@@ -86,20 +86,23 @@ Author: Menushka Weeratunga and Blake Boxberger
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: HideYourApps
 
-Package: flyjb
-Version: 0.3~alpha10
+Package: 1okote.flyjb
+Version: 0.2.4~rc1
 Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1260
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Filename: ./debs/flyjb.deb
-Size: 641814
-MD5sum: c589286e3bb41d4742b2fd090741a57a
-SHA1: 31c8083eb2f26625de1d437890a36b6001566c0f
-SHA256: c481a31b9c45bf3e886da5cd4ad036a25b7a887e6cd6a6fe4c712f5eeecdeee2
+Size: 623672
+MD5sum: ad86e37ec43e4d4f1d93d88009ae6ccf
+SHA1: ab7a93b271fbd039455c8dd6fad6ca0717b47df8
+SHA256: 4fe94af354c4d5354930deea43ae14a46af1535f122b83622a3e6645a91342bb
 Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
-Depiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
+Filename: ./debs/flyjb.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 Package: voicechangerx
 Version: 2.2-51
