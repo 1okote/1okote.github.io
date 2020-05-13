@@ -292,4 +292,24 @@ Name: gLocation
 Filename: ./debs/glocation.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.veloxreloaded
+Version: 1.1.1k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 10412
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Size: 2823072
+MD5sum: 684ece28bd15b7eb1c7d94c872c61085
+SHA1: 82f52203e9652bcc96233b466c8bc48943057485
+SHA256: 253fe4bb25e1725b40ac69fd8299c28a3aba7fc60ca749738efaf23ef4a0d648
+Section: Tweaks
+Description: Bring widgets right to your homescreen, baby.
+Tag: compatible::ios13
+Author: ApexTweaks <support@apextweaks.com>
+Icon: https://chariz.com/cdn/icon/velox-reloaded/icon@3x.png
+Name: Velox Reloaded
+Filename: ./debs/veloxreloaded.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+
 
