@@ -181,8 +181,22 @@ Name: Test Repo
 Filename: ./debs/beta.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
+Package: 1okote.cracktool4
+Version: 4.0~beta9c
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Size: 516702
+MD5sum: 20694ce71afd7e0e4b04d4d36b1ad550
+SHA1: c850c57a504cd6064d777a23d92172054cf16ded
+SHA256: e680ca42af451caf37f7b75e4f76fdc86496de5533e60f3341feb3ef668c5d05
+Section: Utilities
+Description: Crack Tweaks on one click
+Author: julioverne
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: CrackTool4
+Filename: ./debs/cracktool4.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
