@@ -292,37 +292,4 @@ Name: gLocation
 Filename: ./debs/glocation.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.libsparkapplist
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: Spark
-Installed-Size: 596
-Size: 67830
-MD5sum: 5504fa85534b457374eab72de1e1b018
-SHA1: 79d9c59547b1035f4e9c4485ee9501f893bdf627
-SHA256: c1e47a08fb126d27c2c6e69686d13279aeb509a07f879380595384f242a4c3a8
-Section: System
-Description: AppList alternative
-Tag: role::developer
-Author: Spark
-Name: libSparkAppList
-Filename: ./debs/libsparkapplist.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
-Package: 1okote.spy
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: elias
-Installed-Size: 1624
-Depends: mobilesubstrate, 1okote.libsparkapplist, com.opa334.ccsupport, ws.hbang.common
-Size: 478086
-MD5sum: 0933ba1298ba5e8da870fe751de6d750
-SHA1: c8a76ea153f2de066ef347152361a94989a9a000
-SHA256: be0c71965762fabdf0718709020c87af0610c6e27cd4fba8373f1fc4ed8986e8
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: elias
-Name: Spy
-Filename: ./debs/spy.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
 
