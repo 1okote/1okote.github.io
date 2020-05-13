@@ -198,8 +198,23 @@ Name: CrackTool4
 Filename: ./debs/cracktool4.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
+Package: 1okote.openssh
+Version: 8.1-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 9824
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Size: 1807872
+MD5sum: 131c12cea0c1701d57354594810e9a4e
+SHA1: e8252ed3d3f852dff36d95d25515f965e9e53b80
+SHA256: cd847ea417ac390e0de90260c11d957ece3599f7bb86806f8f6e218863c002fc
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Name: OpenSSH
+Filename: ./debs/openssh.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
