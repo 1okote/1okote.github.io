@@ -216,9 +216,43 @@ Name: OpenSSH
 Filename: ./debs/openssh.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.dpkg-perl
+Version: 1.19.7-2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: dpkg, perl
+Size: 192842
+MD5sum: 53fb496677991358425592100db401d9
+SHA1: e18025941af9ea5c4c3ca56b75e7539350c44d67
+SHA256: ebb49d0c34581a7f62331beea675725d884a1bdd190fb89fc5f41d8dbe5d9118
+Section: Packaging
+Priority: optional
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: perl-based package maintainance tools from Debian
+Name: Debian Packager (Perl)
+Filename: ./debs/dpkgperl.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
+Package: 1okote.filza
+Version: 3.7.3-16k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Size: 16573122
+MD5sum: 9596bca8838ac711e494f6f03487afba
+SHA1: 6bd37c21d9fc3058d4d4a5cdd5e353b04fb0cbd9
+SHA256: 0bc0bd483b2c36dd4c54e8db3a4a09501b642905227dcdd363b8be07b1971ae3
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=filza
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software <repo@hackyouriphone.org>
+Name: Filza File Manager
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=filza
+Filename: ./debs/filza.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
