@@ -257,9 +257,23 @@ Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename
 Filename: ./debs/filza.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
-
+Package: 1okote.cydown
+Version: 7.1.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Size: 4325618
+MD5sum: c183fe4eb87c0e30b01a234176a6ca8d
+SHA1: 34212e41ad3473b51f0e2d81fde65a4650a8dc1b
+SHA256: 5c80f4a1a9d5478d7e752317041d5b0de41d85eda53a70f4bae2298d2c076d18
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+Filename: ./debs/cydown.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
