@@ -368,11 +368,11 @@ Package: 1okote.onlinenotify
 Version: 3.2.1
 Architecture: iphoneos-arm
 Maintainer: MainRepo
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), org.mr.watusitools (>= 2.1.18), preferenceloader, applist, com.rpetrich.rocketbootstrap
-Size: 657640
-MD5sum: c905ab8a3136901a529434f9da79a901
-SHA1: 49e4c7e11fa22ed3536587c200f40ae479294d26
-SHA256: 5bd4353f0d7878ca7cdc2e8f7103637bac0c2c46b20933bf8cdf6b3ba74c315c
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), 1okote.watusitools (>= 2.1.18), preferenceloader, applist, com.rpetrich.rocketbootstrap
+Size: 657638
+MD5sum: f6cf2456f708e8abdd9ed53920745ea7
+SHA1: d810a6473f53ef833cd4448faa4d88827f3b449f
+SHA256: 10ddf2dd51be017ec9649bcf01e56de2f8c81f3fcea885e517694abd8f3d0738
 Section: Tweaks
 Description: Track your friends on WhatsApp Messenger!
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -385,12 +385,12 @@ Package: 1okote.stalky
 Version: 4.1.3
 Architecture: iphoneos-arm
 Maintainer: MainRepo
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), org.mr.watusitools (>= 2.1.19), com.rpetrich.rocketbootstrap
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), 1okote.watusitools (>= 2.1.19), com.rpetrich.rocketbootstrap
 Conflicts: com.f0u4d.stalkybeta
-Size: 5267692
-MD5sum: ad29c4a756a148c470a71702422c4f54
-SHA1: e90232bf9a3ea7274c39c688e8f56f226e6d6e13
-SHA256: 74aa2c7c96d3972f3315cc37b751a9f254ee34519011a7b6fa682ac726ae6dbf
+Size: 5267690
+MD5sum: c57d5ceec343e3bf001fab465811c745
+SHA1: 4ff573111741223850adb256d99370ac0d3bc200
+SHA256: f6b374ff10b3ddc2167806dd3dccf5e7f3a071ae0fbe1eed58dda36f227ecb7d
 Section: Tweaks
 Description: Track & download your contacts latest profile & statuses updates on WhatsApp
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -435,40 +435,6 @@ Name: WatusiTools
 Filename: ./debs/watusitools.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.spy
-Version: 1-1.2
-Architecture: iphoneos-arm
-Maintainer: elias
-Installed-Size: 1624
-Depends: mobilesubstrate, com.spark.libsparkapplist, com.opa334.ccsupport, ws.hbang.common
-Size: 262884
-MD5sum: de8bbe62536c929389e9163084d19fb5
-SHA1: 4858af7c2b799c6fa81b741962b4f2d6d57a0d04
-SHA256: 61c65f8791c084cf0638a3589c880357137f8e83746c5a0876f1fb9e602dda98
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: elias
-Name: Spy
-Filename: ./debs/spy.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
-Package: 1okote.flyjb
-Version: 0.2.4~rc1
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 1260
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Size: 623672
-MD5sum: ad86e37ec43e4d4f1d93d88009ae6ccf
-SHA1: ab7a93b271fbd039455c8dd6fad6ca0717b47df8
-SHA256: 4fe94af354c4d5354930deea43ae14a46af1535f122b83622a3e6645a91342bb
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Name: FlyJB
-Filename: ./debs/flyjb.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
