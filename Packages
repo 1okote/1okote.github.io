@@ -86,24 +86,6 @@ Author: Menushka Weeratunga and Blake Boxberger
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: HideYourApps
 
-Package: 1okote.flyjb
-Version: 0.2.4~rc1
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 1260
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Size: 623672
-MD5sum: ad86e37ec43e4d4f1d93d88009ae6ccf
-SHA1: ab7a93b271fbd039455c8dd6fad6ca0717b47df8
-SHA256: 4fe94af354c4d5354930deea43ae14a46af1535f122b83622a3e6645a91342bb
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Name: FlyJB
-Filename: ./debs/flyjb.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: voicechangerx
 Version: 2.2-51
 Architecture: iphoneos-arm
@@ -382,7 +364,111 @@ Name: CallBar XS (iOS 12/13)
 Filename: ./debs/callbarxs.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.onlinenotify
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), org.mr.watusitools (>= 2.1.18), preferenceloader, applist, com.rpetrich.rocketbootstrap
+Size: 657640
+MD5sum: c905ab8a3136901a529434f9da79a901
+SHA1: 49e4c7e11fa22ed3536587c200f40ae479294d26
+SHA256: 5bd4353f0d7878ca7cdc2e8f7103637bac0c2c46b20933bf8cdf6b3ba74c315c
+Section: Tweaks
+Description: Track your friends on WhatsApp Messenger!
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/logo@2x.png
+Name: OnlineNotify
+Filename: ./debs/onlinenotify.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.stalky
+Version: 4.1.3
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), org.mr.watusitools (>= 2.1.19), com.rpetrich.rocketbootstrap
+Conflicts: com.f0u4d.stalkybeta
+Size: 5267692
+MD5sum: ad29c4a756a148c470a71702422c4f54
+SHA1: e90232bf9a3ea7274c39c688e8f56f226e6d6e13
+SHA256: 74aa2c7c96d3972f3315cc37b751a9f254ee34519011a7b6fa682ac726ae6dbf
+Section: Tweaks
+Description: Track & download your contacts latest profile & statuses updates on WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: Stalky
+Filename: ./debs/stalky.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.watusi
+Version: 1.2.40
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, 1okote.watusitools (>= 2.1.21), com.rpetrich.rocketbootstrap, applist
+Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
+Size: 4964230
+MD5sum: 8ca16b9143fa8b15c9399532d9347f87
+SHA1: ea2d27c374985c3cb66698f65cecd99758b8808c
+SHA256: 8d6b0a8df35919e3e3228ee40acb834d101d7a26a73727dd90994d9e18de97dd
+Section: Tweaks
+Description: The all-in-one tweak for WhatsApp Messenger
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: Watusi 2 for WhatsApp
+Filename: ./debs/watusi.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.watusitools
+Version: 2.1.21k
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), darwintools, wget
+Conflicts: com.fouadraheb.watusi (<< 1.1.5), repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2
+Size: 13676194
+MD5sum: 5a12504ff3ef930b5691f0130b888b87
+SHA1: bf6503ee4458e2fb790eb4c37b27e9c773073218
+SHA256: 1d42df7b889d6a1062638b0ed0a31e80939addd0929f51d152f3cb9898d960fe
+Section: System
+Description: Library for Watusi and WhatsApp tweaks
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: WatusiTools
+Filename: ./debs/watusitools.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.spy
+Version: 1-1.2
+Architecture: iphoneos-arm
+Maintainer: elias
+Installed-Size: 1624
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.opa334.ccsupport, ws.hbang.common
+Size: 262884
+MD5sum: de8bbe62536c929389e9163084d19fb5
+SHA1: 4858af7c2b799c6fa81b741962b4f2d6d57a0d04
+SHA256: 61c65f8791c084cf0638a3589c880357137f8e83746c5a0876f1fb9e602dda98
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: elias
+Name: Spy
+Filename: ./debs/spy.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.flyjb
+Version: 0.2.4~rc1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1260
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Size: 623672
+MD5sum: ad86e37ec43e4d4f1d93d88009ae6ccf
+SHA1: ab7a93b271fbd039455c8dd6fad6ca0717b47df8
+SHA256: 4fe94af354c4d5354930deea43ae14a46af1535f122b83622a3e6645a91342bb
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+Filename: ./debs/flyjb.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
