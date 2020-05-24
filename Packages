@@ -469,5 +469,59 @@ Name: SmartNetwork
 Filename: ./debs/smartnetwork.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.icleanerpro
+Version: 7.8.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Size: 9658630
+MD5sum: 4814b4ce776af5068fe0a869efcf222d
+SHA1: 3543ee589c0edb7af07c154407b97002defac115
+SHA256: 7ded44e90f472eba6f21cdf3a8e37ef09c3f0929621d4d15d06765726d2bd931
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+Filename: ./debs/icleanerpro.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.spy
+Version: 2.0k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 2560
+Depends: mobilesubstrate, 1okote.libsparkapplist, com.opa334.ccsupport, ws.hbang.common
+Size: 1340980
+MD5sum: c34ebfd8c36127aa5423dc6bdcc288d9
+SHA1: 54fb7fe35329ea1d5e4efd883bcfe7393865c805
+SHA256: d9132c238273a4419748e0fd79ed351671ff405e7881dc6b8e05cc0cead96272
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: elias
+Icon: https://repo.packix.com/api/Packages/5e75da9bf72671003d5de95c/icon/download?size=medium
+Name: Spy
+Filename: ./debs/spy.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.systeminfo
+Version: 2.7.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1316
+Depends: mobilesubstrate
+Size: 426966
+MD5sum: 62757d286c0a2fc8fd5240041f781ef4
+SHA1: 4bba4e53d46b5ded390cbf09f6b82e59fb6f35c8
+SHA256: 6f82215768f01aaeab441578940420a57c8554d458d475d92c85a119e57eebf6
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Name: System Info
+Filename: ./debs/systeminfo.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
