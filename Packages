@@ -309,61 +309,6 @@ Name: My iAP Cracker
 Filename: ./debs/myiapcracker.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.smartbattery
-Version: 2.7-1
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Installed-Size: 1776
-Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Size: 497832
-MD5sum: 2d2f254d8010caa5566e2574c6840121
-SHA1: 445023aab9e63e11d3deda87a62fde53da9739a2
-SHA256: ea584de5b32cbf582c76ba36653855a831a78763b1b7562ebf81516c39191d2b
-Section: Tweaks
-Description: SmartBattery is the only thing standing in your way to have the complete smartphone!
-Author: elias
-Icon: https://repo.packix.com/api/Packages/5d81eb2712954e001a518c8c/icon/download?size=medium
-Name: SmartBattery
-Filename: ./debs/smartbattery.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
-Package: 1okote.smartnetwork
-Version: 1.0.7-1
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Installed-Size: 732
-Depends: mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkapplist
-Size: 256768
-MD5sum: 5cf871785dcb89a8ddda73c94b4e1a72
-SHA1: 98d664aaceb7555c8ec1a6da7da339e9f995d74c
-SHA256: aeea86604900fd831aec483a3f2e44811dc2678ceb16a60e138769fb3248c165
-Section: Tweaks
-Description: Having a smartphone is useless without smart features and functions!
-Author: elias
-Icon: https://repo.packix.com/api/Packages/5e32e3dbd9961e002e5c556c/icon/download?size=medium
-Name: SmartNetwork
-Filename: ./debs/smartnetwork.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
-Package: 1okote.callbarxs
-Version: 3.2-143k
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 1608
-Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12), wget
-Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Size: 525408
-MD5sum: eb187d178f308fea20d43c7651a5712c
-SHA1: ceba15911d831fa72d3168bbce4643d3a43e9747
-SHA256: f7a99a6fd2b325c5c9a298d4badeeac7a9c835f0fee643c2fb446116c28703a2
-Section: Tweaks
-Description: Don't let incoming calls interrupt you!
-Author: Elias Limneos <limneoselias@gmail.com>
-Icon: https://www.limneos.net/cydia/packageImages/net.limneos.callbarxs/icon.png?fe=18
-Name: CallBar XS (iOS 12/13)
-Filename: ./debs/callbarxs.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.onlinenotify
 Version: 3.2.1
 Architecture: iphoneos-arm
@@ -435,6 +380,94 @@ Name: WatusiTools
 Filename: ./debs/watusitools.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.callbarxs
+Version: 3.2-143k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1608
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12), wget
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Size: 525484
+MD5sum: d92dec8f273e5a0cf35e00b67ac8456e
+SHA1: 8b575817e6695b0dcf28c2f55db66539812c0e10
+SHA256: b2b4a904bf08f04bb59e84d1f696bb0e5e595332d3f3958ea977377e06b09838
+Section: Tweaks
+Description: Don't let incoming calls interrupt you!
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: https://www.limneos.net/cydia/packageImages/net.limneos.callbarxs/icon.png?fe=18
+Name: CallBar XS (iOS 12/13)
+Filename: ./debs/callbarxs.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.libsparkapplist
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 468
+Size: 54698
+MD5sum: 35de50863cb9a16f2f872db2bea1846b
+SHA1: 371d7427aafb86dbec7088caec59a097d15f1fd1
+SHA256: d71ba7af3641b81ae18cbe8716cafeea59fdd060d4934e578db56aa8d9f1dc4f
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+Filename: ./debs/libsparkapplist.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.libsparkcolourpicker
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 424
+Size: 122114
+MD5sum: 715260b7a74711a6f8f59bd92cd566aa
+SHA1: 5c8e68d8660a80acd58e396de91d4cd3468eec9d
+SHA256: 5750c4622a5ccabd74eeef92f43d7c208e71817e513f896daeab2e8a2a986407
+Section: System
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Tag: role::developer
+Author: Spark
+Name: libsparkcolourpicker
+Filename: ./debs/libsparkcolourpicker.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.smartbattery
+Version: 2.7-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1776
+Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, 1okote.libsparkcolourpicker, 1okote.libsparkapplist
+Size: 497828
+MD5sum: 7820ff3fff566a3168d599220b17afb4
+SHA1: 8e326575fdb0b56134cb23fa92bb84c6719fdf50
+SHA256: a3effc747342970c6ee5f5732987b698a6b441dbe65785be059c979828f59515
+Section: Tweaks
+Description: SmartBattery is the only thing standing in your way to have the complete smartphone!
+Author: elias
+Icon: https://repo.packix.com/api/Packages/5d81eb2712954e001a518c8c/icon/download?size=medium
+Name: SmartBattery
+Filename: ./debs/smartbattery.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.smartnetwork
+Version: 1.0.7-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 732
+Depends: mobilesubstrate, net.limneos.libbulletin, 1okote.libsparkapplist
+Size: 256762
+MD5sum: f1b324dd1fe5ce63bee8dde016864af5
+SHA1: b75df2185ef488c983c92b20b49584e89f359510
+SHA256: 0f59b68d4ba6199d8202f76b62b019fcf6b22ce9135e62280e9f7f9b918f0a80
+Section: Tweaks
+Description: Having a smartphone is useless without smart features and functions!
+Author: elias
+Icon: https://repo.packix.com/api/Packages/5e32e3dbd9961e002e5c556c/icon/download?size=medium
+Name: SmartNetwork
+Filename: ./debs/smartnetwork.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
