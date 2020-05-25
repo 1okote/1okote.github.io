@@ -506,6 +506,41 @@ Name: System Info
 Filename: ./debs/systeminfo.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.colormenotifs
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14), 1okote.libsparkcolourpicker (>= 0.0.14)
+Size: 543638
+MD5sum: d99036412f17e9f21c7ea6a1a616a881
+SHA1: 1987b6f55d229e03bdb69655252c138aaff99b71
+SHA256: 3efc71193bfb03c4756d0b076756b9675ecd6d30676246ee59ff4c2dc133c24e
+Section: Tweaks
+Description: Bring colors to your notifications!
+Author: MrGcGamer
+Name: ColorMeNotifs
+Filename: ./debs/colormenotifs.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.goodwifi
+Version: 0.0~beta5a
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Size: 97904
+MD5sum: 49757cc918d76e85e1a191605df86d13
+SHA1: 50156c1a26358466f84dd37a52acff5b8e9fefcb
+SHA256: a3cb8a85563097d4ff2467a7c207cab3a06f8a9f642f2e0a6895d123139879ec
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+Filename: ./debs/goodwifi.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
 Package: 1okote.instalauncher2
 Version: 1.3
 Architecture: iphoneos-arm
@@ -514,9 +549,9 @@ Installed-Size: 980
 Depends: mobilesubstrate, preferenceloader, applist(>=1.5.15)
 Conflicts: com.jontelang.instalauncher2.beta
 Size: 314484
-MD5sum: 89746d62f5d5c80ebd5c8b4590c6312a
-SHA1: bcbc108dc7c02e86d25afeecd8d4dea0933f8b36
-SHA256: 7c872f72390c482434f5b725d5db83d4854dae9a8bd9f9805ad0503a5ad9d015
+MD5sum: 17c25b4d4a759547f4d3d292c7bc81a0
+SHA1: 1ac93b27c3dc7cccb44b7c18c4290702272bd731
+SHA256: f680164122e7fe50f40b98483192a08e1defcf809eb3e3c659e6ea7b3de5ea8d
 Section: Tweaks
 Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <jontelang@gmail.com>
@@ -532,9 +567,9 @@ Maintainer: 1okote
 Pre-Depends: firmware (>=8.0)
 Depends: mobilesubstrate, net.limneos.libbulletin
 Size: 423524
-MD5sum: 77cfca5f2b101763246fccd4a9e99d05
-SHA1: 68653dd4381859747e0a7d878f3e0ff36f099942
-SHA256: 6eecf83ffdc1318d55e283d3c9f53e54af18d77a4a8de201159e721c6f0f457d
+MD5sum: a8e95795e16d082863ac68babd320cb2
+SHA1: faf93dcabd6a64c1a7bdfc6c244f8a40a02441b5
+SHA256: 90cf7a4922e09cce9c61458fd4c04460e136c265f2af988d773835ea908a5751
 Section: Utilities
 Description: A one-click tool to save blobs using TSSsaver.1conan.com.
 Author: IArrays <support@iarrays.com>
@@ -542,6 +577,8 @@ Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
 Name: TSSSaver 2
 Filename: ./debs/tsssaver.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+
 
 
 
