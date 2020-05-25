@@ -489,24 +489,6 @@ Name: iCleaner Pro
 Filename: ./debs/icleanerpro.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.spy
-Version: 2.0k
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 2560
-Depends: mobilesubstrate, 1okote.libsparkapplist, com.opa334.ccsupport, ws.hbang.common
-Size: 1340980
-MD5sum: c34ebfd8c36127aa5423dc6bdcc288d9
-SHA1: 54fb7fe35329ea1d5e4efd883bcfe7393865c805
-SHA256: d9132c238273a4419748e0fd79ed351671ff405e7881dc6b8e05cc0cead96272
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: elias
-Icon: https://repo.packix.com/api/Packages/5e75da9bf72671003d5de95c/icon/download?size=medium
-Name: Spy
-Filename: ./debs/spy.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.systeminfo
 Version: 2.7.2
 Architecture: iphoneos-arm
@@ -523,5 +505,43 @@ Author: ARX8x
 Name: System Info
 Filename: ./debs/systeminfo.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.instalauncher2
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 980
+Depends: mobilesubstrate, preferenceloader, applist(>=1.5.15)
+Conflicts: com.jontelang.instalauncher2.beta
+Size: 314484
+MD5sum: 89746d62f5d5c80ebd5c8b4590c6312a
+SHA1: bcbc108dc7c02e86d25afeecd8d4dea0933f8b36
+SHA256: 7c872f72390c482434f5b725d5db83d4854dae9a8bd9f9805ad0503a5ad9d015
+Section: Tweaks
+Description: Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Icon: https://repo.packix.com/api/Packages/5eb2931b947542001aff1661/icon/download?size=medium
+Name: InstaLauncher 2
+Filename: ./debs/instalauncher.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.tsssaver
+Version: 1.0-beta-4
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Pre-Depends: firmware (>=8.0)
+Depends: mobilesubstrate, net.limneos.libbulletin
+Size: 423524
+MD5sum: 77cfca5f2b101763246fccd4a9e99d05
+SHA1: 68653dd4381859747e0a7d878f3e0ff36f099942
+SHA256: 6eecf83ffdc1318d55e283d3c9f53e54af18d77a4a8de201159e721c6f0f457d
+Section: Utilities
+Description: A one-click tool to save blobs using TSSsaver.1conan.com.
+Author: IArrays <support@iarrays.com>
+Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
+Name: TSSSaver 2
+Filename: ./debs/tsssaver.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
 
 
