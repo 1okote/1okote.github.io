@@ -108,48 +108,6 @@ Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
 Name: VoiceChanger XS (iOS 11/12/13)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: libcspreferences
-Version: 1.3.5
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 4952
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
-Filename: ./debs/libcspreferences.deb
-Size: 1410032
-MD5sum: d2dba8a9a2c14d983f1bc3b0122c85f5
-SHA1: ce557f38827b764185016fd0da767a7ff7dd4f28
-SHA256: 138bf5600fa2bbca8020c5f25770293942038a7f2aa5f64febf98faa9518d2e7
-Section: System
-Homepage: https://1okote.github.io/depictions/libcspreferences
-Description: A Preference Library that doesn't suck!
-Tag: compatible_min::iosiOS9
-Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Name: libCSPreferences
-
-Package: com.1okote.shuffle
-Version: 1.1.4
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Installed-Size: 1600
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Depends: libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Replaces: com.cpdigitaldarkroom.placeholder
-Filename: ./debs/shuffle.deb
-Size: 343824
-MD5sum: 3044c371ff776fcf759ebf837ef8ea43
-SHA1: 6319904e79b4c64b80872a04f0598dbfbbac76cf
-SHA256: 9d0d2d119bef75af571ba28e5c9c872c14e50a6851d4476d3ab6caff3018787d
-Section: Tweaks
-Homepage: https://creaturecoding.com/
-Description: Mix up your preferences
-Tag: purpose::extension, compatible_min::iosiOS10
-Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
-Name: shuffle
-
 Package: com.1okote.repo
 Version: 1.0-b2
 Architecture: iphoneos-arm
@@ -578,6 +536,128 @@ Name: TSSSaver 2
 Filename: ./debs/tsssaver.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.gestures13
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 67
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Size: 4480
+MD5sum: 5c53e127c58e82d96947641b04ccdd1f
+SHA1: e2f3ed5560d93ea09dc99df507911053d9f043bb
+SHA256: 07a397ee7357bbae65c97a7c14686dc764219304d0c5cec895b67f0454f6368d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gestures13Dp
+Description: Enable iPhone X Gestures On All Devices! (iOS 13)
+Tag: purpose::extension, compatible::ios13
+Author: iCraze & Ryan Nair <icrazeios@protonmail.com>
+Dev: icraze
+Name: Gestures13
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/gestures13.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.gif2ani2
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: wizages, MidnightChips
+Installed-Size: 424
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
+Provides: com.aditkamath.springy
+Size: 60714
+MD5sum: 1cc3cfb7f13fbd73ce91b64e63d2e840
+SHA1: 130b237e2b04d600ec0627185497a25bbdd2e1a2
+SHA256: bfd1b75df967acfb78b4755189f334805434786b1b2c981a9183b0613b190295
+Section: Tweaks
+Description: iOS Respring animations from any gif you want!
+Author: wizages, MidnightChips
+Name: Gif2Ani V2
+Filename: ./debs/gif2ani2.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.sizefinder
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Size: 10770
+MD5sum: 4ef1e8f6847c39d035037eb15efe54fe
+SHA1: b4eab9006f625a4eef14c93f6cc8926a4c426e27
+SHA256: 1586d514412b486f8da081b053ffe880c9a22922424cfe39906149f3cd3ba731
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sizefinderDp
+Description: Show app size instead of delete button
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Squ1dd13 <squ1dd13dev@gmail.com>
+Dev: squ1dd13
+Name: SizeFinder
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/sizefinder.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.taptaplock
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 337
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common (>= 1.14)
+Size: 47090
+MD5sum: 6c5b993f27d76d0daa9df6a06c39cf10
+SHA1: 3aca5c90b570a694e0f1544dcc4baa656ac5c10e
+SHA256: f81a7f0c1319c863785dcaecb33aa31dce43ae80d942ca5d03b5a5348186b64b
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=taptaplockDp
+Description: Tap on the homescreen to lock your device
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Ic0nic0de <Ic0nic0de@gmail.com>
+Dev: ic0nic0de
+Icon: file:///Library/PreferenceBundles/taptaplockPrefs.bundle/icons/icon@2x.png
+Name: Tap Tap Lock
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/taptaplock.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.trolldrop
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: firmware (>= 11.0), com.modmyi.libswift4
+Size: 1009756
+MD5sum: 311aa94ede904242a6f37857e8088889
+SHA1: da1c458b44346574dff69b30253e4498cee4a567
+SHA256: 28df3031aa5783053e9a7a248983dadfa34f6c748d1df09a8faa4a53e87f2f0c
+Section: System
+Description: AirDrop Flooder GUI
+Author: MidnightChips, XMB5
+Name: Trolldrop
+Filename: ./debs/trolldrop.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: com.1okote.shuffle
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1600
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Size: 343934
+MD5sum: 43043a56e504c0273c79a7a45c1b023d
+SHA1: fb41c6fcc490b629b2a02edd1ede7151ec0e2bec
+SHA256: dcce43c51561cfa4f3224bcb1bdfb8f4ff7f6b6eecf78a5e2f1d21e15d5ff75d
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Mix up your preferences
+Tag: purpose::extension, compatible_min::iosiOS10
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: shuffle
+Filename: ./debs/shuffle.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
