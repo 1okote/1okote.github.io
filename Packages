@@ -680,7 +680,7 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Filename: ./debs/castswitcher.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.virtualhome
+Package: 1okote.dvirtualhome
 Version: 0.0.12
 Architecture: iphoneos-arm
 Maintainer: DGh0st <deeppwnage@yahoo.com>
@@ -694,8 +694,9 @@ Section: Tweaks
 Description: My attempt at making virtual home iOS 10 compatible.
 Author: DGh0st <deeppwnage@yahoo.com>
 Name: DVirtualHome
-Filename: ./debs/virtualhome.deb
+Filename: ./debs/dvirtualhome.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
+
 
 
 
