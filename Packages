@@ -1,0 +1,702 @@
+Package: pulltorespring2
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), preferenceloader
+Filename: ./debs/pulltorespring2.deb
+Size: 18644
+MD5sum: 1932b972192f4a97a1e55e96c7e97556
+SHA1: c5627b2cac244c32aab3bdbfcaf8ba5fa091a33e
+SHA256: 7167e98fac83f9934f147997e9f9377c5e33b068b7c9c11ccb66f355c0f3803a
+Section: Tweaks
+Homepage: https://1okote.github.io/depictions/pulltorespring2
+Description: Pull down in Settings to respring
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Noah Saso <noahsaso@gmail.com>
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Dev: sassoty
+Icon: file:///Library/PreferenceLoader/Preferences/PullToRespring@2x.png
+Name: PullToRespring 2
+
+Package: slices3
+Version: 3.0.5
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Installed-Size: 1004
+Depends: firmware (>=11), mobilesubstrate, preferenceloader, applist (>= 1.5.0), com.rpetrich.rocketbootstrap (>=1.0.7~beta3)
+Conflicts: com.expetelek.slices, com.subdiox.slices2
+Filename: ./debs/slices3.deb
+Size: 302166
+MD5sum: d0d2974e2e2367c0c6524b5805c9f093
+SHA1: 51e31f6804d9f1ecad70a0f4d3274be8af99f70c
+SHA256: 4179ecf0532f3c80576a0b274d1dcdfc94e36b7acdb786bfda716adf9a9bdea4
+Section: Tweaks
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: Slices 3
+Sponsor: kiiimo.org <http://kiiimo.org>
+
+Package: appstoreplusplus
+Version: 0.9.10
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstoreplusplus.deb
+Size: 606018
+MD5sum: 0a20185bce23a171db0eda630b67038c
+SHA1: 6cce7f004a990f89bd754e37298958484a2f46d8
+SHA256: 0b40b946393adcd694b1356eb3f689b85af514e02957ed3a428c6cca221c710c
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: AppStore++
+
+Package: easyswitcherx
+Version: 0.0.4-5
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/easyswitcherx.deb
+Size: 64300
+MD5sum: c03fe24073996763daf89b582333748c
+SHA1: d0f67bab49cee6706995f5c6d8a343d6e6a51140
+SHA256: d2a9ccf67d3690e872dedad75452fe545c35b91d363cec57fecdc1cb489a4e43
+Section: Tweaks
+Author: Spark
+Name: EasySwitcherX
+Sponsor: 1okote
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: hideyourapps
+Version: 1.2.1
+Architecture: iphoneos-arm
+Installed-Size: 320
+Depends: mobilesubstrate, applist
+Filename: ./debs/hideyourapps.deb
+Size: 33622
+MD5sum: 06c55b8bb4242479886453d7dcaa5b8f
+SHA1: e8698008c8a2e8d2edc8010ce7d540bbf287beb2
+SHA256: 799c55ab0ce29d77f0b2848f3a5f88422f1fa27f27c1f68f4ceb1457b7022224
+Section: Tweaks
+Author: Menushka Weeratunga and Blake Boxberger
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: HideYourApps
+
+Package: voicechangerx
+Version: 2.2-51
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1421
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/voicechangerx.deb
+Size: 456390
+MD5sum: 619f91c75a2e34e440376bc264c123db
+SHA1: 2b3dfc41e449c3c8a128f3b6ba2eefa34cf3f55c
+SHA256: 2dd08a2e7b6aa2cb48f66c48fdae841396bc4445cdc94f4fdd297d51a31ae6ff
+Section: Tweaks
+Description: Change your voice during a call!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Dev: limneos
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Name: VoiceChanger XS (iOS 11/12/13)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.1okote.repo
+Version: 1.0-b2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: firmware (>= 11.2), perl, git, ws.hbang.newterm2
+Size: 211048
+MD5sum: bb1525c01d7415fceaf949f6f5ad2df8
+SHA1: 2ebb14798b243f46aa38b2212386c9cc3a073df4
+SHA256: 58a6d1a32ea0f0bdc3fff1d0e7bcd7d67e74ab3d476b8e6b80d226c3fbad7078
+Section: System
+Description: All Packages for create Cydia Repo
+Author: SharkLatan
+Name: Test Repo
+Filename: ./debs/beta.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.cracktool4
+Version: 4.0~beta9c
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Size: 516702
+MD5sum: 20694ce71afd7e0e4b04d4d36b1ad550
+SHA1: c850c57a504cd6064d777a23d92172054cf16ded
+SHA256: e680ca42af451caf37f7b75e4f76fdc86496de5533e60f3341feb3ef668c5d05
+Section: Utilities
+Description: Crack Tweaks on one click
+Author: julioverne
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: CrackTool4
+Filename: ./debs/cracktool4.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.openssh
+Version: 8.1-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 9824
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Size: 1807872
+MD5sum: 131c12cea0c1701d57354594810e9a4e
+SHA1: e8252ed3d3f852dff36d95d25515f965e9e53b80
+SHA256: cd847ea417ac390e0de90260c11d957ece3599f7bb86806f8f6e218863c002fc
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Name: OpenSSH
+Filename: ./debs/openssh.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.dpkg-perl
+Version: 1.19.7-2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: dpkg, perl
+Size: 192842
+MD5sum: 53fb496677991358425592100db401d9
+SHA1: e18025941af9ea5c4c3ca56b75e7539350c44d67
+SHA256: ebb49d0c34581a7f62331beea675725d884a1bdd190fb89fc5f41d8dbe5d9118
+Section: Packaging
+Priority: optional
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: perl-based package maintainance tools from Debian
+Name: Debian Packager (Perl)
+Filename: ./debs/dpkgperl.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.filza
+Version: 3.7.3-16k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Size: 16573122
+MD5sum: 9596bca8838ac711e494f6f03487afba
+SHA1: 6bd37c21d9fc3058d4d4a5cdd5e353b04fb0cbd9
+SHA256: 0bc0bd483b2c36dd4c54e8db3a4a09501b642905227dcdd363b8be07b1971ae3
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=filza
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software <repo@hackyouriphone.org>
+Name: Filza File Manager
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=filza
+Filename: ./debs/filza.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.cydown
+Version: 7.1.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Size: 4325618
+MD5sum: c183fe4eb87c0e30b01a234176a6ca8d
+SHA1: 34212e41ad3473b51f0e2d81fde65a4650a8dc1b
+SHA256: 5c80f4a1a9d5478d7e752317041d5b0de41d85eda53a70f4bae2298d2c076d18
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+Filename: ./debs/cydown.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.glocation
+Version: 1
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate, preferenceloader, firmware (>=11.0)
+Size: 91954
+MD5sum: f964b2a2e2eae7d8537f2af56e563274
+SHA1: 6be17f9e30f42ffdd0baf5e9e380d20954332139
+SHA256: 62077d5adc99e71917be88ae132dcb3ead1008b18543f408537c173feafd890a
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=glocation
+Description: Giji Location !!
+Author: m156@nrkvv <repo@hackyouriphone.org>
+Name: gLocation
+Filename: ./debs/glocation.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.localiapstore
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 235
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Size: 71084
+MD5sum: b227b8f34f417cafa3f641ec0ffa9331
+SHA1: a325d154d77992395858e555c0ea9062ca9843e5
+SHA256: 24e630c4bc60a2379f737e6ef39c94d76b905dcab4c725ce55709a94a7d679fc
+Section: Tweaks
+Description: Hacking in-game purchases
+Author: anondev
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: LocalIAPStore
+Filename: ./debs/localiapstore.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.myiapcracker
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Size: 47966
+MD5sum: 591258a6c1721ae5ff37971744587be0
+SHA1: 94eba0d861256fc7643659af54463007ed08f35a
+SHA256: 7d8d3f33e57078874cfa22072163f42ad49b74b244e2ea60f7a4d3ab47907ad0
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=myiapcracker
+Description: FREE in app purchase will not work on every game or app but work on lots of games and app or you can do this try it out see if it work for your game or app.
+Author: stem grade <repo@hackyouriphone.org>
+Name: My iAP Cracker
+Filename: ./debs/myiapcracker.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.onlinenotify
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), 1okote.watusitools (>= 2.1.18), preferenceloader, applist, com.rpetrich.rocketbootstrap
+Size: 657638
+MD5sum: f6cf2456f708e8abdd9ed53920745ea7
+SHA1: d810a6473f53ef833cd4448faa4d88827f3b449f
+SHA256: 10ddf2dd51be017ec9649bcf01e56de2f8c81f3fcea885e517694abd8f3d0738
+Section: Tweaks
+Description: Track your friends on WhatsApp Messenger!
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/logo@2x.png
+Name: OnlineNotify
+Filename: ./debs/onlinenotify.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.stalky
+Version: 4.1.3
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), 1okote.watusitools (>= 2.1.19), com.rpetrich.rocketbootstrap
+Conflicts: com.f0u4d.stalkybeta
+Size: 5267690
+MD5sum: c57d5ceec343e3bf001fab465811c745
+SHA1: 4ff573111741223850adb256d99370ac0d3bc200
+SHA256: f6b374ff10b3ddc2167806dd3dccf5e7f3a071ae0fbe1eed58dda36f227ecb7d
+Section: Tweaks
+Description: Track & download your contacts latest profile & statuses updates on WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: Stalky
+Filename: ./debs/stalky.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.watusi
+Version: 1.2.40
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, 1okote.watusitools (>= 2.1.21), com.rpetrich.rocketbootstrap, applist
+Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
+Size: 4964230
+MD5sum: 8ca16b9143fa8b15c9399532d9347f87
+SHA1: ea2d27c374985c3cb66698f65cecd99758b8808c
+SHA256: 8d6b0a8df35919e3e3228ee40acb834d101d7a26a73727dd90994d9e18de97dd
+Section: Tweaks
+Description: The all-in-one tweak for WhatsApp Messenger
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: Watusi 2 for WhatsApp
+Filename: ./debs/watusi.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.watusitools
+Version: 2.1.21k
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 9.0), darwintools, wget
+Conflicts: com.fouadraheb.watusi (<< 1.1.5), repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2
+Size: 13676194
+MD5sum: 5a12504ff3ef930b5691f0130b888b87
+SHA1: bf6503ee4458e2fb790eb4c37b27e9c773073218
+SHA256: 1d42df7b889d6a1062638b0ed0a31e80939addd0929f51d152f3cb9898d960fe
+Section: System
+Description: Library for Watusi and WhatsApp tweaks
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: WatusiTools
+Filename: ./debs/watusitools.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.callbarxs
+Version: 3.2-143k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1608
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12), wget
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Size: 525484
+MD5sum: d92dec8f273e5a0cf35e00b67ac8456e
+SHA1: 8b575817e6695b0dcf28c2f55db66539812c0e10
+SHA256: b2b4a904bf08f04bb59e84d1f696bb0e5e595332d3f3958ea977377e06b09838
+Section: Tweaks
+Description: Don't let incoming calls interrupt you!
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: https://www.limneos.net/cydia/packageImages/net.limneos.callbarxs/icon.png?fe=18
+Name: CallBar XS (iOS 12/13)
+Filename: ./debs/callbarxs.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.libsparkapplist
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 468
+Size: 54698
+MD5sum: 35de50863cb9a16f2f872db2bea1846b
+SHA1: 371d7427aafb86dbec7088caec59a097d15f1fd1
+SHA256: d71ba7af3641b81ae18cbe8716cafeea59fdd060d4934e578db56aa8d9f1dc4f
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+Filename: ./debs/libsparkapplist.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.libsparkcolourpicker
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 424
+Size: 122114
+MD5sum: 715260b7a74711a6f8f59bd92cd566aa
+SHA1: 5c8e68d8660a80acd58e396de91d4cd3468eec9d
+SHA256: 5750c4622a5ccabd74eeef92f43d7c208e71817e513f896daeab2e8a2a986407
+Section: System
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Tag: role::developer
+Author: Spark
+Name: libsparkcolourpicker
+Filename: ./debs/libsparkcolourpicker.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.smartbattery
+Version: 2.7-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1776
+Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, 1okote.libsparkcolourpicker, 1okote.libsparkapplist
+Size: 497828
+MD5sum: 7820ff3fff566a3168d599220b17afb4
+SHA1: 8e326575fdb0b56134cb23fa92bb84c6719fdf50
+SHA256: a3effc747342970c6ee5f5732987b698a6b441dbe65785be059c979828f59515
+Section: Tweaks
+Description: SmartBattery is the only thing standing in your way to have the complete smartphone!
+Author: elias
+Icon: https://repo.packix.com/api/Packages/5d81eb2712954e001a518c8c/icon/download?size=medium
+Name: SmartBattery
+Filename: ./debs/smartbattery.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.smartnetwork
+Version: 1.0.7-1
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 732
+Depends: mobilesubstrate, net.limneos.libbulletin, 1okote.libsparkapplist
+Size: 256762
+MD5sum: f1b324dd1fe5ce63bee8dde016864af5
+SHA1: b75df2185ef488c983c92b20b49584e89f359510
+SHA256: 0f59b68d4ba6199d8202f76b62b019fcf6b22ce9135e62280e9f7f9b918f0a80
+Section: Tweaks
+Description: Having a smartphone is useless without smart features and functions!
+Author: elias
+Icon: https://repo.packix.com/api/Packages/5e32e3dbd9961e002e5c556c/icon/download?size=medium
+Name: SmartNetwork
+Filename: ./debs/smartnetwork.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.icleanerpro
+Version: 7.8.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Size: 9658630
+MD5sum: 4814b4ce776af5068fe0a869efcf222d
+SHA1: 3543ee589c0edb7af07c154407b97002defac115
+SHA256: 7ded44e90f472eba6f21cdf3a8e37ef09c3f0929621d4d15d06765726d2bd931
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+Filename: ./debs/icleanerpro.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.systeminfo
+Version: 2.7.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1316
+Depends: mobilesubstrate
+Size: 426966
+MD5sum: 62757d286c0a2fc8fd5240041f781ef4
+SHA1: 4bba4e53d46b5ded390cbf09f6b82e59fb6f35c8
+SHA256: 6f82215768f01aaeab441578940420a57c8554d458d475d92c85a119e57eebf6
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Name: System Info
+Filename: ./debs/systeminfo.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.colormenotifs
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14), 1okote.libsparkcolourpicker (>= 0.0.14)
+Size: 543638
+MD5sum: d99036412f17e9f21c7ea6a1a616a881
+SHA1: 1987b6f55d229e03bdb69655252c138aaff99b71
+SHA256: 3efc71193bfb03c4756d0b076756b9675ecd6d30676246ee59ff4c2dc133c24e
+Section: Tweaks
+Description: Bring colors to your notifications!
+Author: MrGcGamer
+Name: ColorMeNotifs
+Filename: ./debs/colormenotifs.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.goodwifi
+Version: 0.0~beta5a
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Size: 97904
+MD5sum: 49757cc918d76e85e1a191605df86d13
+SHA1: 50156c1a26358466f84dd37a52acff5b8e9fefcb
+SHA256: a3cb8a85563097d4ff2467a7c207cab3a06f8a9f642f2e0a6895d123139879ec
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+Filename: ./debs/goodwifi.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.instalauncher2
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 980
+Depends: mobilesubstrate, preferenceloader, applist(>=1.5.15)
+Conflicts: com.jontelang.instalauncher2.beta
+Size: 314484
+MD5sum: 17c25b4d4a759547f4d3d292c7bc81a0
+SHA1: 1ac93b27c3dc7cccb44b7c18c4290702272bd731
+SHA256: f680164122e7fe50f40b98483192a08e1defcf809eb3e3c659e6ea7b3de5ea8d
+Section: Tweaks
+Description: Launch ANY app instantly
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Icon: https://repo.packix.com/api/Packages/5eb2931b947542001aff1661/icon/download?size=medium
+Name: InstaLauncher 2
+Filename: ./debs/instalauncher.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.tsssaver
+Version: 1.0-beta-4
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Pre-Depends: firmware (>=8.0)
+Depends: mobilesubstrate, net.limneos.libbulletin
+Size: 423524
+MD5sum: a8e95795e16d082863ac68babd320cb2
+SHA1: faf93dcabd6a64c1a7bdfc6c244f8a40a02441b5
+SHA256: 90cf7a4922e09cce9c61458fd4c04460e136c265f2af988d773835ea908a5751
+Section: Utilities
+Description: A one-click tool to save blobs using TSSsaver.1conan.com.
+Author: IArrays <support@iarrays.com>
+Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
+Name: TSSSaver 2
+Filename: ./debs/tsssaver.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.gestures13
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 67
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Size: 4480
+MD5sum: 5c53e127c58e82d96947641b04ccdd1f
+SHA1: e2f3ed5560d93ea09dc99df507911053d9f043bb
+SHA256: 07a397ee7357bbae65c97a7c14686dc764219304d0c5cec895b67f0454f6368d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gestures13Dp
+Description: Enable iPhone X Gestures On All Devices! (iOS 13)
+Tag: purpose::extension, compatible::ios13
+Author: iCraze & Ryan Nair <icrazeios@protonmail.com>
+Dev: icraze
+Name: Gestures13
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/gestures13.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.gif2ani2
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: wizages, MidnightChips
+Installed-Size: 424
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
+Provides: com.aditkamath.springy
+Size: 60714
+MD5sum: 1cc3cfb7f13fbd73ce91b64e63d2e840
+SHA1: 130b237e2b04d600ec0627185497a25bbdd2e1a2
+SHA256: bfd1b75df967acfb78b4755189f334805434786b1b2c981a9183b0613b190295
+Section: Tweaks
+Description: iOS Respring animations from any gif you want!
+Author: wizages, MidnightChips
+Name: Gif2Ani V2
+Filename: ./debs/gif2ani2.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.sizefinder
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Size: 10770
+MD5sum: 4ef1e8f6847c39d035037eb15efe54fe
+SHA1: b4eab9006f625a4eef14c93f6cc8926a4c426e27
+SHA256: 1586d514412b486f8da081b053ffe880c9a22922424cfe39906149f3cd3ba731
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sizefinderDp
+Description: Show app size instead of delete button
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Squ1dd13 <squ1dd13dev@gmail.com>
+Dev: squ1dd13
+Name: SizeFinder
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/sizefinder.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.taptaplock
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 337
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common (>= 1.14)
+Size: 47090
+MD5sum: 6c5b993f27d76d0daa9df6a06c39cf10
+SHA1: 3aca5c90b570a694e0f1544dcc4baa656ac5c10e
+SHA256: f81a7f0c1319c863785dcaecb33aa31dce43ae80d942ca5d03b5a5348186b64b
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=taptaplockDp
+Description: Tap on the homescreen to lock your device
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Ic0nic0de <Ic0nic0de@gmail.com>
+Dev: ic0nic0de
+Icon: file:///Library/PreferenceBundles/taptaplockPrefs.bundle/icons/icon@2x.png
+Name: Tap Tap Lock
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/taptaplock.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.trolldrop
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: firmware (>= 11.0), com.modmyi.libswift4
+Size: 1009756
+MD5sum: 311aa94ede904242a6f37857e8088889
+SHA1: da1c458b44346574dff69b30253e4498cee4a567
+SHA256: 28df3031aa5783053e9a7a248983dadfa34f6c748d1df09a8faa4a53e87f2f0c
+Section: System
+Description: AirDrop Flooder GUI
+Author: MidnightChips, XMB5
+Name: Trolldrop
+Filename: ./debs/trolldrop.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: com.1okote.shuffle
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1600
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Size: 343934
+MD5sum: 43043a56e504c0273c79a7a45c1b023d
+SHA1: fb41c6fcc490b629b2a02edd1ede7151ec0e2bec
+SHA256: dcce43c51561cfa4f3224bcb1bdfb8f4ff7f6b6eecf78a5e2f1d21e15d5ff75d
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Mix up your preferences
+Tag: purpose::extension, compatible_min::iosiOS10
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: shuffle
+Filename: ./debs/shuffle.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.castswitcher
+Version: 1.2-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 132
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Size: 4618
+MD5sum: 9014b33e27bf1a2bb6bca6395cf3ee96
+SHA1: a69fa768e1911f220691c8bf103280dd7f19b8d9
+SHA256: 148ea3d577f5ee542d71668d47bae79ca93d4fa178100da218edb9af153c7102
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=castswitcherDp
+Description: The iPad GridSwitcher enabled on iOS 13.
+Tag: purpose::extension, compatible::ios13
+Author: Castmary <dbloxia@gmail.com>
+Dev: simulation
+Name: CastSwitcher
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/castswitcher.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.virtualhome
+Version: 0.0.12
+Architecture: iphoneos-arm
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Installed-Size: 296
+Depends: mobilesubstrate, preferenceloader
+Size: 35014
+MD5sum: 3d46b0797f1f39fe2bda6bf750d80bff
+SHA1: d185cf5630520658b864c4c29c82dc9874230439
+SHA256: 1b3d659c094c1fc6ac96214a62d20e38d0466142b4b0b018843ea632db38c150
+Section: Tweaks
+Description: My attempt at making virtual home iOS 10 compatible.
+Author: DGh0st <deeppwnage@yahoo.com>
+Name: DVirtualHome
+Filename: ./debs/virtualhome.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+
+
+
+
