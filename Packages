@@ -697,6 +697,71 @@ Name: DVirtualHome
 Filename: ./debs/dvirtualhome.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.kernbypass
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 544
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Size: 30102
+MD5sum: 4cc5dd9dc8f64f14528f9afd360169fa
+SHA1: b6d4f3c3e38e9f77bf986ec3524f25014860bc9b
+SHA256: 4c8dcea870ae56dd3bbbc89dcee1f92fe607a3fa03de65e00acc6365e37c0280
+Section: System
+Description: kernel level jailbreak detection bypass.
+Author: akusio
+Name: KernBypass
+Filename: ./debs/kernbypass.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.liberty13
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Size: 82396
+MD5sum: 3ec59be98fabe3ae59784845155c2a50
+SHA1: 0eced60779145049e811ee3746d3c8bebb8fd7db
+SHA256: 85c20abf1602f429a6074266b8670e68728a84a18f32be45b1b0303d359d7e9a
+Section: Tweaks
+Description: A general purpose jailbreak detection bypass patch.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty13
+Filename: ./debs/liberty.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.powerselector
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1712
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Size: 350528
+MD5sum: ad58fa45ea251ef0ed6da0024a5090e8
+SHA1: c3b7d30d99e787b2a6887ed8ede7c6007c6f0a41
+SHA256: 4b82284b86da9a47830165880683622d24dd59831eada397489a7549a65af0f3
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportpowerselectorDp
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: ichitaso <willfeeltips@gmail.com>
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
+Name: PowerSelector
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/powerselector.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+
 
 
 
