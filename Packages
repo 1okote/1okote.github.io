@@ -37,24 +37,6 @@ Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: Slices 3
 Sponsor: kiiimo.org <http://kiiimo.org>
 
-Package: appstoreplusplus
-Version: 0.9.10
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/appstoreplusplus.deb
-Size: 606018
-MD5sum: 0a20185bce23a171db0eda630b67038c
-SHA1: 6cce7f004a990f89bd754e37298958484a2f46d8
-SHA256: 0b40b946393adcd694b1356eb3f689b85af514e02957ed3a428c6cca221c710c
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
-Author: CokePokes
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Name: AppStore++
-
 Package: easyswitcherx
 Version: 0.0.4-5
 Architecture: iphoneos-arm
@@ -697,24 +679,6 @@ Name: DVirtualHome
 Filename: ./debs/dvirtualhome.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.kernbypass
-Version: 0.0.3
-Architecture: iphoneos-arm
-Maintainer: akusio
-Installed-Size: 544
-Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
-Size: 30102
-MD5sum: 4cc5dd9dc8f64f14528f9afd360169fa
-SHA1: b6d4f3c3e38e9f77bf986ec3524f25014860bc9b
-SHA256: 4c8dcea870ae56dd3bbbc89dcee1f92fe607a3fa03de65e00acc6365e37c0280
-Section: System
-Description: kernel level jailbreak detection bypass.
-Author: akusio
-Name: KernBypass
-Filename: ./debs/kernbypass.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.liberty13
 Version: 0.2.12
 Architecture: iphoneos-arm
@@ -798,24 +762,6 @@ Filename: ./debs/dockspring.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.flyjb
-Version: 0.3~alpha10
-Architecture: iphoneos-arm
-Maintainer: 1okote
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Size: 641932
-MD5sum: d6efface988db464a2e74e4f667b3d33
-SHA1: afa56b09cb0ce98e1c18d736b5cdcb1b18fb9bf7
-SHA256: ad838d4ce1a5a4f2d3a0abaf396e717c533f4849e9c67f9635ec3579ee0a4c88
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Name: FlyJB
-Filename: ./debs/flyjb.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.hotspotqr
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -858,6 +804,183 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Filename: ./debs/iconrenamerx.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: appstoreplusplus
+Version: 0.9.10
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstoreplusplus.deb
+Size: 606018
+MD5sum: 0a20185bce23a171db0eda630b67038c
+SHA1: 6cce7f004a990f89bd754e37298958484a2f46d8
+SHA256: 0b40b946393adcd694b1356eb3f689b85af514e02957ed3a428c6cca221c710c
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: AppStore++
+
+Package: 1okote.flyjb
+Version: 0.3~alpha10
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Size: 641932
+MD5sum: d6efface988db464a2e74e4f667b3d33
+SHA1: afa56b09cb0ce98e1c18d736b5cdcb1b18fb9bf7
+SHA256: ad838d4ce1a5a4f2d3a0abaf396e717c533f4849e9c67f9635ec3579ee0a4c88
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+Filename: ./debs/flyjb.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.kernbypass
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 544
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Size: 30102
+MD5sum: 4cc5dd9dc8f64f14528f9afd360169fa
+SHA1: b6d4f3c3e38e9f77bf986ec3524f25014860bc9b
+SHA256: 4c8dcea870ae56dd3bbbc89dcee1f92fe607a3fa03de65e00acc6365e37c0280
+Section: System
+Description: kernel level jailbreak detection bypass.
+Author: akusio
+Name: KernBypass
+Filename: ./debs/kernbypass.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.libapt
+Version: 1.8.2-sileo6
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
+Replaces: apt7-lib, libapt-pkg5.0, libapt-pkg-dev
+Provides: apt7-ssl, apt7-lib (= 1.8.2), libapt-pkg5.0 (= 1.8.2-sileo), apt-lib (= 1.8.2-sileo), libapt-pkg-dev
+Size: 2207034
+MD5sum: 1ea4c5e988cb63f645b9d13f232fcc0d
+SHA1: 142623a775c529cdcaf445e6dd3358439d9a0527
+SHA256: a73fda6a1a91f8eaf4df70c9b1234b25f32304a076fae3c8b5bcba1619d22238
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+Filename: ./debs/libapt.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.shadow
+Version: 2.0.20
+Architecture: iphoneos-arm
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Size: 250178
+MD5sum: 3d096fc72de34b3bae98e02b753852bb
+SHA1: f49087e3b775b60801e1bd54f21bfc6f91cf6b4e
+SHA256: 11e77231af1b2f45a0383f5bfde046f9b4913571ab3ee55f068ac480b9461926
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: A lightweight general jailbreak detection bypass.
+Author: jjolano <jjolano@me.com>
+Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
+Name: Shadow
+Filename: ./debs/shadow.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.sileo
+Version: 1.7.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | 1okote.libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Size: 4424138
+MD5sum: 2a9c3ee7f18abf590e06c4d10f672ed6
+SHA1: 13cfe8502dddf263bfd5c1e2664649fed0d79d61
+SHA256: ab1a4f65e93b2040ded22bc95e0fda0ef90123a75f7c58489aa62af61c29b462
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Filename: ./debs/sileo.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.sileoprep
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Size: 822
+MD5sum: ff1d7f7e1f868295584028c8bbfe6a36
+SHA1: 1235ca7e6a5a998a7b161176127d151f34be3e7d
+SHA256: 1560138789bade49874cb9d55dac53b8e34a04f4886d20c535e3955c5a60df74
+Description: Prepare checkra1n for Sileo installation
+Name: Sileo Prep (checkra1n)
+Section: Packaging
+Filename: ./debs/sileoprep.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: cydia
+Version: 2.3-checkra1n
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: 1okote.sileo, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools, cy+cpu.arm64
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Size: 121798
+MD5sum: 2397618f1ca7ef8004aa0297fdb4f0a5
+SHA1: 79bed44ad554043a0054b0573aea81140f1458b7
+SHA256: 8f31a5356a3d31abb36d7266277476aa91b20ff463b3094f4b54830745c26d8f
+Section: Packaging
+Priority: required
+Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
+Tag: cydia::essential
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Cydia Compatibility Package (Checkrain)
+Filename: ./debs/cydia.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: cydia-dark
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: Diatrus
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0), cydia (>= 2.0)
+Depends: apt7-lib | 1okote.libapt, apt7-key | apt-key, darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
+Size: 1568834
+MD5sum: f5f1be2c820da942192e8db37ee3171a
+SHA1: 5c672e9ece3fed69182e3205ab852aef11aa01f3
+SHA256: f7ea8f0a554461b018f88fc928520303c511f36617fb4eaca91e637ed627b4e2
+Section: Packaging
+Description: Are you 70 years old and aging? Do you need your package manager to run slower and have the old UI for your aging eyes? Well this is the package manager for you.
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+Filename: ./debs/cydia-dark.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+
 
 
 
