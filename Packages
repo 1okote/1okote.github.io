@@ -761,6 +761,103 @@ Filename: ./debs/powerselector.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.celldia
+Version: 0.0~beta5
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, cydia
+Size: 20092
+MD5sum: a97db73e34fb9cf1ed72858eb0e5ded9
+SHA1: c95eaf60b72054eda6417c61f2fab745bcbe8efc
+SHA256: 99a67769d94941b5d73f3368809504fcd3e5965678d4c424def7470ac2dc54e8
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Redesigned Cell Cydia
+Author: julioverne
+Name: CellDia
+Filename: ./debs/celldia.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.dockspring
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: neoney
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Size: 12032
+MD5sum: 332fac69223bb08ab78e2f94083b1909
+SHA1: 87e16554fb9dbedb078ac189abaefca47aa6f9f2
+SHA256: 1fb56ad55a733f56fd6dd9e3eecf5770263a9c92e23ea4215953f8b51dc2a521
+Section: Tweaks
+Description: Respring your device by swiping the dock up.
+Author: neoney
+Icon: https://neoney.xyz/DockSpring.jpg
+Name: DockSpring
+Filename: ./debs/dockspring.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.flyjb
+Version: 0.3~alpha10
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Size: 641932
+MD5sum: d6efface988db464a2e74e4f667b3d33
+SHA1: afa56b09cb0ce98e1c18d736b5cdcb1b18fb9bf7
+SHA256: ad838d4ce1a5a4f2d3a0abaf396e717c533f4849e9c67f9635ec3579ee0a4c88
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+Filename: ./debs/flyjb.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.hotspotqr
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 150
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Size: 19056
+MD5sum: d4a066d81f0ead28e3c04ae91a751c8c
+SHA1: 27f792fbeb40a24db434ce2ddc38ad66751df187
+SHA256: 89a2c8898874327af8e71f98b4a7c57c6eb702d487f6016f8e1d8e0f655d736f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hotspotqrDp
+Description: Generate a QR Code for your personal hotspot directly in the settings
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Dev: kingpuffdaddi
+Name: HotspotQR
+Filename: ./debs/hotspotqr.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.iconrenamerx
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 107
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Size: 14596
+MD5sum: 21dde461ec7f241f86ee4a3a330f08d5
+SHA1: 5f57ff6af7ee9e667fb8079acea0a8cb533a24bb
+SHA256: d5338bd7dc904d11f2bbdb3439005a3c39ffda155620ee28c0eb28fee2db8b9d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconrenamerxDp
+Description: Ja ja ja
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Netskao <netskao@gmail.com>
+Dev: netskao
+Name: IconRenamerX
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/iconrenamerx.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
