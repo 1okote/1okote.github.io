@@ -980,17 +980,17 @@ Filename: ./debs/cydia-dark.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: me.apptapp.installer
-Version: 5.0b10
+Package: 1okote.installer
+Version: 5.0.3-2
 Architecture: iphoneos-arm
 Maintainer: AppTapp <support@apptapp.me>
-Depends: firmware (>= 9.0)
-Size: 25668518
-MD5sum: d60f28ebca28c21ce5bfeda00a422e40
-SHA1: bbd3968f0221c58c56ad52042b9079a1d70e2e22
-SHA256: 44695bca6fe277bd6229bfd5f197bc2926544965ce69f19df72edd7e1b5fea9f
+Depends: firmware (>= 11.0)
+Size: 24127456
+MD5sum: fbb22a4ad5447ff0c0c6a86a060acd3f
+SHA1: f4ac320d33c776a3d71b7edaf408db6bdb31809f
+SHA256: 8fd668622b09a383ba96f034d5e60f76fc238b0b74548b0c9b13d8c3589c40e9
 Section: Packaging
-Description: A modern package manager built specifically for iOS!
+Description: The fastest package manager built specifically for iOS!
 Author: AppTapp <support@apptapp.me>
 Icon: https://synnygr.dev/AppTapp/installer_icon.png
 Name: Installer
@@ -998,16 +998,16 @@ Filename: ./debs/installer.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: xyz.willy.zebra
+Package: 1okote.zebra
 Version: 1.2~beta1a
 Architecture: iphoneos-arm
 Maintainer: Wilson Styres <wilson@styres.me>
 Installed-Size: 43152
 Depends: dpkg, uikittools, firmware (>= 11.0)
-Size: 15621472
-MD5sum: db4bcfec115ad12dbac798057e580e24
-SHA1: 5e4e74bbade839c016a7128361769f36ecf998ce
-SHA256: 9efc638ffc109be90cf97deb57a50de240030ae9aa33e9d6d3d34d1eb0a22b66
+Size: 21194462
+MD5sum: 767bb4acb66d888e059b23ce5cd383fd
+SHA1: 797c29561e93995b145292b80410c4b28411dc89
+SHA256: 0ef7b022af9b1629d9b82cb9d70b9f10e4257cf631bd30f7c95ac4f6d7629bc2
 Section: Packaging
 Description: A Useful Package Manager
   A *modern*, **fast**, and ***powerful*** open source package manager for jailbroken iOS devices.
@@ -1025,5 +1025,9 @@ Previews: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/zebra1.png,
 Filename: ./debs/zebra.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+
+
+
 
 
