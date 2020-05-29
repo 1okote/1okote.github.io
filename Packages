@@ -980,24 +980,6 @@ Filename: ./debs/cydia-dark.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.installer
-Version: 5.0.3-2
-Architecture: iphoneos-arm
-Maintainer: AppTapp <support@apptapp.me>
-Depends: firmware (>= 11.0)
-Size: 24127456
-MD5sum: fbb22a4ad5447ff0c0c6a86a060acd3f
-SHA1: f4ac320d33c776a3d71b7edaf408db6bdb31809f
-SHA256: 8fd668622b09a383ba96f034d5e60f76fc238b0b74548b0c9b13d8c3589c40e9
-Section: Packaging
-Description: The fastest package manager built specifically for iOS!
-Author: AppTapp <support@apptapp.me>
-Icon: https://synnygr.dev/AppTapp/installer_icon.png
-Name: Installer
-Filename: ./debs/installer.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.zebra
 Version: 1.2~beta1a
 Architecture: iphoneos-arm
@@ -1026,8 +1008,23 @@ Filename: ./debs/zebra.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
-
+Package: me.apptapp.installer
+Version: 5.0.3-2
+Architecture: iphoneos-arm
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 11.0)
+Size: 24127482
+MD5sum: bd30e3633b97aedeea67f46a07ce403a
+SHA1: d6b28c5ecb85adf9d9f7000455374f9d2acf3ce0
+SHA256: bd6e08bed23bc9b7fdc3974e1b38a294da363104a66acc9faa0a5f516c61d6e8
+Section: Packaging
+Description: The fastest package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Depiction: https://apptapp.me/repo/installer.html
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+Filename: ./debs/installer.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
 
