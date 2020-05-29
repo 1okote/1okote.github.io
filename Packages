@@ -859,28 +859,6 @@ Filename: ./debs/kernbypass.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.libapt
-Version: 1.8.2-sileo6
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: dpkg (>= 1.18)
-Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
-Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
-Replaces: apt7-lib, libapt-pkg5.0, libapt-pkg-dev
-Provides: apt7-ssl, apt7-lib (= 1.8.2), libapt-pkg5.0 (= 1.8.2-sileo), apt-lib (= 1.8.2-sileo), libapt-pkg-dev
-Size: 2207034
-MD5sum: 1ea4c5e988cb63f645b9d13f232fcc0d
-SHA1: 142623a775c529cdcaf445e6dd3358439d9a0527
-SHA256: a73fda6a1a91f8eaf4df70c9b1234b25f32304a076fae3c8b5bcba1619d22238
-Section: Packaging
-Priority: required
-Description: the advanced packaging library from Debian
-Name: APT 1.8 Strict (lib)
-Filename: ./debs/libapt.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.shadow
 Version: 2.0.20
 Architecture: iphoneos-arm
@@ -901,27 +879,6 @@ Filename: ./debs/shadow.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.sileo
-Version: 1.7.6
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | 1okote.libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
-Conflicts: cydia-gui (<<99.0)
-Size: 4424138
-MD5sum: 2a9c3ee7f18abf590e06c4d10f672ed6
-SHA1: 13cfe8502dddf263bfd5c1e2664649fed0d79d61
-SHA256: ab1a4f65e93b2040ded22bc95e0fda0ef90123a75f7c58489aa62af61c29b462
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo
-Filename: ./debs/sileo.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.sileoprep
 Version: 1.1
 Architecture: iphoneos-arm
@@ -937,19 +894,40 @@ Filename: ./debs/sileoprep.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: org.coolstar.sileo
+Version: 1.7.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Size: 3140132
+MD5sum: 03d5dbc095ed9cd5605f8334e61d4ab6
+SHA1: bc5381dd0c7f485532dd4b5e04a6b89a4ee51605
+SHA256: 9ca292e1a56759ee80e5caf27f0ec81eff36f40b45d53c7c47a3cf7774886738
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Filename: ./debs/sileo.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
 Package: cydia
 Version: 2.3-checkra1n
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: 1okote.sileo, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools, cy+cpu.arm64
+Depends: org.coolstar.sileo, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools, cy+cpu.arm64
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Size: 121798
-MD5sum: 2397618f1ca7ef8004aa0297fdb4f0a5
-SHA1: 79bed44ad554043a0054b0573aea81140f1458b7
-SHA256: 8f31a5356a3d31abb36d7266277476aa91b20ff463b3094f4b54830745c26d8f
+Size: 95220
+MD5sum: 2b55222f0c16654feabed6e0ec8fba14
+SHA1: 0a01799d338735806485f6530718d98608b3b9c6
+SHA256: 3e0f2038c0f34ef6528bff8d806d3bffcacce32854b8187b3575bff3a4ea6c9e
 Section: Packaging
 Priority: required
 Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
@@ -960,16 +938,38 @@ Filename: ./debs/cydia.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: libapt
+Version: 1.8.2-sileo6
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
+Replaces: apt7-lib, libapt-pkg5.0, libapt-pkg-dev
+Provides: apt7-ssl, apt7-lib (= 1.8.2), libapt-pkg5.0 (= 1.8.2-sileo), apt-lib (= 1.8.2-sileo), libapt-pkg-dev
+Size: 1295316
+MD5sum: 9b97b4fa24e9189b7b1d159e1f8b1048
+SHA1: 1b92d14629f6a8a564aff06d32d48d392b515691
+SHA256: 2060f02408fbb1168faa649f84d908bbe45a2e90073d688e90b4048c5bcb2fb0
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.8 Strict (lib)
+Filename: ./debs/libapt.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
 Package: cydia-dark
 Version: 2.1-1
 Architecture: iphoneos-arm
 Maintainer: Diatrus
 Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0), cydia (>= 2.0)
-Depends: apt7-lib | 1okote.libapt, apt7-key | apt-key, darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
-Size: 1568834
-MD5sum: f5f1be2c820da942192e8db37ee3171a
-SHA1: 5c672e9ece3fed69182e3205ab852aef11aa01f3
-SHA256: f7ea8f0a554461b018f88fc928520303c511f36617fb4eaca91e637ed627b4e2
+Depends: apt7-lib | libapt, apt7-key | apt-key, darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
+Size: 1568824
+MD5sum: d071acdfa06530aa985da6f78cbd7834
+SHA1: cd66c0670bf075bb51d520433760cde643a3b657
+SHA256: ec37d76697cdbfce38aab82f9641351bf4d32537cbcdf980a20f77c4946fd982
 Section: Packaging
 Description: Are you 70 years old and aging? Do you need your package manager to run slower and have the old UI for your aging eyes? Well this is the package manager for you.
 Tag: purpose::uikit, role::enduser
@@ -979,9 +979,4 @@ Name: Cydia Installer
 Filename: ./debs/cydia-dark.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
-
-
-
-
 
