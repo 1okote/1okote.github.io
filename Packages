@@ -980,3 +980,50 @@ Filename: ./debs/cydia-dark.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: me.apptapp.installer
+Version: 5.0b10
+Architecture: iphoneos-arm
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 9.0)
+Size: 25668518
+MD5sum: d60f28ebca28c21ce5bfeda00a422e40
+SHA1: bbd3968f0221c58c56ad52042b9079a1d70e2e22
+SHA256: 44695bca6fe277bd6229bfd5f197bc2926544965ce69f19df72edd7e1b5fea9f
+Section: Packaging
+Description: A modern package manager built specifically for iOS!
+Author: AppTapp <support@apptapp.me>
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer
+Filename: ./debs/installer.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: xyz.willy.zebra
+Version: 1.2~beta1a
+Architecture: iphoneos-arm
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 43152
+Depends: dpkg, uikittools, firmware (>= 11.0)
+Size: 15621472
+MD5sum: db4bcfec115ad12dbac798057e580e24
+SHA1: 5e4e74bbade839c016a7128361769f36ecf998ce
+SHA256: 9efc638ffc109be90cf97deb57a50de240030ae9aa33e9d6d3d34d1eb0a22b66
+Section: Packaging
+Description: A Useful Package Manager
+  A *modern*, **fast**, and ***powerful*** open source package manager for jailbroken iOS devices.
+Tag: compatible::11.0-13.5
+Author: Wilson Styres <wilson@styres.me>
+Changelog: Depiction Redesign
+  This update is the first in our app-wide redesign. Each beta will include a new view that is redesigned and we'd appreciate your feedback as we go through the redesign process.
+  .
+  This beta brings a redesinged package depiction view complete with a new native depiction format. It also includes new alternate icons created by [Bossgfx](https://twitter.com/bossgfx_) and [heysyemeh](https://twitter.com/heysyemeh).
+Header: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/banner.jpg
+Icon: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/icon.png
+Name: Zebra
+Prefer-Native: Yes
+Previews: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/zebra1.png, https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/zebra2.png, https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/zebra3.png, https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/zebra4.png
+Filename: ./debs/zebra.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+
