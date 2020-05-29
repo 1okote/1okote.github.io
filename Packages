@@ -805,6 +805,24 @@ Filename: ./debs/iconrenamerx.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: appstoreplusplus
+Version: 0.9.10
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstoreplusplus.deb
+Size: 606018
+MD5sum: 0a20185bce23a171db0eda630b67038c
+SHA1: 6cce7f004a990f89bd754e37298958484a2f46d8
+SHA256: 0b40b946393adcd694b1356eb3f689b85af514e02957ed3a428c6cca221c710c
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Name: AppStore++
+
 Package: 1okote.flyjb
 Version: 0.3~alpha10
 Architecture: iphoneos-arm
@@ -1008,46 +1026,8 @@ Filename: ./debs/zebra.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.appstoreplusplus
-Version: 0.9.10
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Size: 607410
-MD5sum: 6a162fdfda758c3f97304e96399911e3
-SHA1: 9a3d1d1cf73d5d7ce149e064265618795c84e144
-SHA256: 94bd7e6530516ab57341f4f72d742bef62cd2267537a724c779d05e0731e7c8e
-Section: Tweaks
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
-Author: CokePokes
-Name: AppStore++
-Sileodepicton: https://mainrepo.org/sileo/543
-Filename: ./debs/appstoreplusplus.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.c3rcub3
-Version: 5.1.18k
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Installed-Size: 15104
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack, ru.rejail.adblockplus, me.alfhaily.cercube
-Replaces: org.mr.cercube
-Size: 5640728
-MD5sum: f27b92cc4d8267fbc10a1ff27b2d2557
-SHA1: 39cc99ad34fb203388f9ea34cb4d7516e84fa3ac
-SHA256: c2a8700e9e96b53661942a0d7c34c149dbe57af66e0c56e2e8d72661d8226574
-Section: Tweaks
-Description: Cercube not only gives you the features that are missing from YouTube, but it also gives you full control over the app.
-Author: Majd Alfhaily
-Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
-Name: Cercube for YouTube
-Siledepiction: https://mainrepo.org/sileo.php?pid=368
-Filename: ./debs/c3rcub3.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
 
 
 
