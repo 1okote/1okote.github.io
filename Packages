@@ -991,29 +991,6 @@ Filename: ./debs/adaptivedarkmode.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: 1okote.floatytab
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Installed-Size: 5808
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker, applist, ws.hbang.common (>= 1.14)
-Filename: deb/org.mr.floatytab_1.0.deb
-Size: 5113338
-MD5sum: ddd4855820c11a95e30c40eabb298889
-SHA1: f57a961945ec126856de80ad2f85919b17ea6aca
-SHA256: 6a939c4395237b21ac6630eecb8c6b4933995175f01d68e6287c0e2cf5143ea8
-Section: Tweaks
-Description: Make your tab bar floaty...
-Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios13.3
-Author: Dylan West <iosthemem0d@gmail.com>
-Depiction: https://mainrepo.org/index.php?pid=92
-Icon: https://twickd.com/cdn/screenshots/ca1ab665257cb2c4142c903ec6405b37/default
-Name: FloatyTab
-Sileodepiction: https://mainrepo.org/sileo.php?pid=92
-Filename: ./debs/floatytab.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: 1okote.gestures
 Version: 3.4.3
 Architecture: iphoneos-arm
