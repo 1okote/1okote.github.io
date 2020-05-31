@@ -37,22 +37,6 @@ Depiction: https://1okote.github.io/depictions/1okote/index.html
 Name: Slices 3
 Sponsor: kiiimo.org <http://kiiimo.org>
 
-Package: easyswitcherx
-Version: 0.0.4-5
-Architecture: iphoneos-arm
-Maintainer: Kiiimo <support@kiiimo.org>
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/easyswitcherx.deb
-Size: 64300
-MD5sum: c03fe24073996763daf89b582333748c
-SHA1: d0f67bab49cee6706995f5c6d8a343d6e6a51140
-SHA256: d2a9ccf67d3690e872dedad75452fe545c35b91d363cec57fecdc1cb489a4e43
-Section: Tweaks
-Author: Spark
-Name: EasySwitcherX
-Sponsor: 1okote
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
 Package: hideyourapps
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -516,27 +500,6 @@ Author: IArrays <support@iarrays.com>
 Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
 Name: TSSSaver 2
 Filename: ./debs/tsssaver.deb
-Depiction: https://1okote.github.io/depictions/1okote/index.html
-
-Package: 1okote.gestures13
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 67
-Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
-Size: 4480
-MD5sum: 5c53e127c58e82d96947641b04ccdd1f
-SHA1: e2f3ed5560d93ea09dc99df507911053d9f043bb
-SHA256: 07a397ee7357bbae65c97a7c14686dc764219304d0c5cec895b67f0454f6368d
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gestures13Dp
-Description: Enable iPhone X Gestures On All Devices! (iOS 13)
-Tag: purpose::extension, compatible::ios13
-Author: iCraze & Ryan Nair <icrazeios@protonmail.com>
-Dev: icraze
-Name: Gestures13
-Sponsor: thebigboss.org <http://thebigboss.org>
-Filename: ./debs/gestures13.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 
 Package: 1okote.gif2ani2
@@ -1008,22 +971,97 @@ Filename: ./debs/zebra.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: me.apptapp.installer
-Version: 5.0.3-2
+Package: 1okote.adaptivedarkmode
+Version: 1.0.1
 Architecture: iphoneos-arm
-Maintainer: AppTapp <support@apptapp.me>
-Depends: firmware (>= 11.0)
-Size: 24127482
-MD5sum: bd30e3633b97aedeea67f46a07ce403a
-SHA1: d6b28c5ecb85adf9d9f7000455374f9d2acf3ce0
-SHA256: bd6e08bed23bc9b7fdc3974e1b38a294da363104a66acc9faa0a5f516c61d6e8
-Section: Packaging
-Description: The fastest package manager built specifically for iOS!
-Author: AppTapp <support@apptapp.me>
-Depiction: https://apptapp.me/repo/installer.html
-Icon: https://synnygr.dev/AppTapp/installer_icon.png
-Name: Installer
-Filename: ./debs/installer.deb
+Maintainer: smokin1337 <smokin1337@gmail.com>
+Installed-Size: 1620
+Pre-Depends: 1okote.libsparkapplist
+Depends: mobilesubstrate
+Filename: deb/1okote.adaptivedarkmode_1.0.1_iphoneos-arm.deb
+Size: 1045834
+MD5sum: 7fef4d87096398b06d48df87e2f129be
+SHA1: e44be229fc291921ab9847078dc0a92dd6434ee9
+SHA256: 61a42027623110e445c84024d12a778ebad852e20560d5d6ca5596a26644a273
+Section: Tweaks
+Description: Automated dark mode !
+Author: smokin1337 <smokin1337@gmail.com>
+Name: AdaptiveDarkMode
+Filename: ./debs/adaptivedarkmode.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.floatytab
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 5808
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, applist, ws.hbang.common (>= 1.14)
+Filename: deb/org.mr.floatytab_1.0.deb
+Size: 5113338
+MD5sum: ddd4855820c11a95e30c40eabb298889
+SHA1: f57a961945ec126856de80ad2f85919b17ea6aca
+SHA256: 6a939c4395237b21ac6630eecb8c6b4933995175f01d68e6287c0e2cf5143ea8
+Section: Tweaks
+Description: Make your tab bar floaty...
+Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios13.3
+Author: Dylan West <iosthemem0d@gmail.com>
+Depiction: https://mainrepo.org/index.php?pid=92
+Icon: https://twickd.com/cdn/screenshots/ca1ab665257cb2c4142c903ec6405b37/default
+Name: FloatyTab
+Sileodepiction: https://mainrepo.org/sileo.php?pid=92
+Filename: ./debs/floatytab.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.gestures
+Version: 3.4.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 283
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: deb/1okote.gesturesi11_3.4.3_iphoneos-arm.deb
+Size: 39544
+MD5sum: 0b2ad4639218a0a7b536b88fbe058442
+SHA1: 41eae41a61c6e3274e9b85f62212800d64b5df8a
+SHA256: d21d624deeccbaf987e75dc8b39c89c0e46f9f563e56b317efd61a1243102061
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
+Description: iPhone 11 gestures and other options.
+Tag: purpose::extension, compatible::ios13
+Author: Hius <h.h.haiduog@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
+Dev: hius
+Icon: file:///Library/PreferenceBundles/Gesturesi11Prefs.bundle/icon@2x.png
+Name: Gesturesi11
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/gestures.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+
+Package: 1okote.prism
+Version: 0.0.1-851
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 474
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.3)
+Filename: deb/1okote.prism_0.0.1-851_iphoneos-arm.deb
+Size: 176890
+MD5sum: f23378f85b8c99bab4a89bb91ff7aa6a
+SHA1: d8bee27aca94f189113920f9575b1307ff251789
+SHA256: 00e8ecfa7cfa3dc4b012857dc49e2462d2e850ce6bf68e008586a47eac14a89f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=prismDp
+Description: visualizations inside Music app
+Tag: cydia::commercial, purpose::extension, compatible::ios8, compatible::ios9
+Author: Josh Doctors <fewjative@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=prismDp
+Dev: joshdoctors
+Icon: file:///Library/PreferenceBundles/PrismSettings.bundle/PrismSettings@2x.png
+Name: Prism
+Sponsor: thebigboss.org <http://thebigboss.org>
+Filename: ./debs/prism.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
