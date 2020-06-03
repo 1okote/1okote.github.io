@@ -857,17 +857,17 @@ Filename: ./debs/sileoprep.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: org.coolstar.sileo
-Version: 1.7.6
+Package: 1okote.sileo
+Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Size: 3140132
-MD5sum: 03d5dbc095ed9cd5605f8334e61d4ab6
-SHA1: bc5381dd0c7f485532dd4b5e04a6b89a4ee51605
-SHA256: 9ca292e1a56759ee80e5caf27f0ec81eff36f40b45d53c7c47a3cf7774886738
+Size: 4422300
+MD5sum: 21276b7ade590e7dcff59affd6e12f15
+SHA1: e9ca7037f89896d3f3d19021f287ee245186b8be
+SHA256: caedc8cf8e7a2a576d3e4414aedf4eaccc7468474e3e39ec9155d6ac5fec9c56
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -883,7 +883,7 @@ Version: 2.3-checkra1n
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: org.coolstar.sileo, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools, cy+cpu.arm64
+Depends: 1okote.sileo, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools, cy+cpu.arm64
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
@@ -1055,6 +1055,28 @@ Filename: ./debs/prysm.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
+Package: 1okote.reprovision
+Version: 0.5.2~EOL
+Architecture: iphoneos-arm
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Size: 14391728
+MD5sum: 1bbc2e6c94bc4bced2fb57788429ac6d
+SHA1: 93f4cd5a16e0847efb533fe21281be7aeeb6ba6a
+SHA256: 44961bd092e9605e4b7edd8b77a8d37e9334c1e2edef2b60b6a475c55a2ab5a0
+Section: System
+Priority: optional
+Homepage: https://github.com/Matchstic/Extender-Installer
+Description: Re-sign applications on your device
+Author: Matt Clarke <matt@incendo.ws>
+Dev: Matt Clarke <matt@incendo.ws>
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision
+Filename: ./debs/reprovision.deb
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
 
 
