@@ -1078,7 +1078,7 @@ Filename: ./debs/reprovision.deb
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-Package: bioprotectxs
+Package: 1okote.bioprotect
 Version: 4.4-51k
 Architecture: iphoneos-arm
 Maintainer: 1okote
@@ -1087,15 +1087,35 @@ Depends: mobilesubstrate, preferenceloader, wget
 Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Filename: ./debs/bioprotect.deb
 Size: 833072
-MD5sum: 6045bd0f47e3c320d3d1af869fbd5e6b
-SHA1: 2eb2f223b30a9fc477fc13447a50a3f0956cdf70
-SHA256: 1807942019c31cfecc548c4f00d211855a4f76f321eec9e887579931c51acc9c
+MD5sum: 0a2368e1ed9b2c745a0c3e490b0c48a9
+SHA1: 4579d050d225c5e31f335a7f9e943f77d9aa54a9
+SHA256: 6309140203f2b09567c83a7aa725eb521b7e08468d3d0100aaa113e51c0dedc9
 Section: Tweaks
 Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: https://1okote.github.io/depictions/bioprotect
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: https://www.limneos.net/cydia/packageImages/net.limneos.bioprotectxs/icon.png?fe=62
 Name: BioProtect XS
+
+Package: 1okote.dra1n
+Version: 1.3-1k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 15196
+Depends: mobilesubstrate, firmware (>= 11.0),ws.hbang.common,preferenceloader,com.cokepokes.libnotifications (>= 0.2-2), com.muirey03.libmryipc
+Filename: ./debs/dra1n.deb
+Size: 7409758
+MD5sum: a5aa632adc3ac37df89d63a5211c5998
+SHA1: 958ce37c994a63e46c8638b5f6cc20546261455b
+SHA256: ab2171bc440a3b71a8b10d3d38f610ec86e12ca3624c49da04dfcece50205e3c
+Section: Tweaks
+Description: Find out which packages are dra1ning your battery!
+Author: MegaDev & Charlie While
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+Icon: https://repo-cdn.dynastic.co/342300381885235201.fc2c9ea5055d0d8a1f498be667fecb21-96?size=96
+Name: Dra1n
 
 
 
