@@ -1117,5 +1117,45 @@ Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 Icon: https://repo-cdn.dynastic.co/342300381885235201.fc2c9ea5055d0d8a1f498be667fecb21-96?size=96
 Name: Dra1n
 
+Package: 1okote.crane
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 1952
+Depends: firmware (>=13.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/crane.deb
+Size: 340624
+MD5sum: e7f14e4e71ff979464a7162f53647c00
+SHA1: c046de95febf03690454c01350b10b6743b766a7
+SHA256: 103f34688e7d8aa49e22bad61d8d59bf0572e630a299219e48f2d32256066ce5
+Section: Tweaks
+Description: Multiple containers for your applications!
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+Author: opa334
+Name: Crane
+
+Package: 1okote.pinheads
+Version: 1.6k
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 420
+Depends: mobilesubstrate
+Filename: ./debs/pinheads.deb
+Size: 60182
+MD5sum: 2caf7b5d154e7a875410453e83e86b3e
+SHA1: a05ca4a7076fa1d9f257f7e8196a2a1764487087
+SHA256: be8af01a4b89c8958363880bb1d50c6c1cea262c4bad843a207e8cea0f5b22c0
+Section: Tweaks
+Description: Pin favorite chats in Messages app on iOS 13
+Author: Ahmad
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
+Icon: https://repo-cdn.dynastic.co/330491206909820929.e79c9e3a21444eb37e7100e9fa3f5c86-96?size=96
+Name: PinHeads
+Sileodepiction: https://mainrepo.org/sileo/1330
+
+
 
 
