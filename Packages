@@ -1116,5 +1116,20 @@ Name: BioProtect
 Depiction: https://1okote.github.io/depictions/1okote/index.html
 Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
 
-
-
+Package: 1okote.pinheadswhatsapp
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: 1okote
+Installed-Size: 420
+Depends: mobilesubstrate
+Filename: ./debs/pinheadswhatsapp.deb
+Size: 55200
+MD5sum: 8a8cf00972716154d4efe8491f39d89d
+SHA1: 86e7c0d6e0c9d740544d5acd372284684ecb497c
+SHA256: 71a139434c0aed63861d8d30620b3c151112c46285812851337f95ef40c5df4d
+Section: Tweaks
+Description: Pin favorite chats in WhatsApp, just like iOS 14!
+Author: Ahmad
+Name: PinHeadsWhatsApp
+Depiction: https://1okote.github.io/depictions/1okote/index.html
+Sileodepiction: https://1okote.github.io/depictions/1okote/index.html
